@@ -1,0 +1,30 @@
+{
+  "name": "ocaml-sf-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css:watch": "postcss -w styles/main.css -o pages/main.css",
+    "css:build": "NODE_ENV=production postcss styles/main.css -o pages/main.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bettistein/ocaml-sf-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bettistein/ocaml-sf-website/issues"
+  },
+  "homepage": "https://github.com/bettistein/ocaml-sf-website#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.0.6",
+    "autoprefixer": "^9.7.4",
+    "cssnano": "^4.1.10",
+    "postcss-cli": "^7.1.0",
+    "postcss-easy-import": "^3.0.0",
+    "tailwindcss": "^1.2.0"
+  }
+}
