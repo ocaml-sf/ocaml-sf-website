@@ -2,11 +2,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        coffee: {
-          default: "#abcdef"
+        night: {
+          default: "#11112F",
+          light: "#161638"
         },
-        sky: "#0000ff"
+        camel: "#F67242"
 
+      },
+      minWidth: {
+        mobile: "20rem"
       }
     },
     /* Most of the time we customize the font-sizes,
