@@ -45,6 +45,11 @@ p {
   @apply text-night-light font-sans;
 }
 
+small {
+  @apply text-sm text-stone;
+  
+}
+
 
 ::selection {
   background: #FFA180; /* WebKit/Blink Browsers */

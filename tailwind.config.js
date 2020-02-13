@@ -4,9 +4,10 @@ module.exports = {
       colors: {
         night: {
           default: "#11112F",
-          light: "#161638"
+          light: "#161638",
         },
-        camel: "#F67242"
+        camel: {default: "#F67242", light: "#FFA180"},
+        stone: "#6A6B6F",
 
       },
       minWidth: {
