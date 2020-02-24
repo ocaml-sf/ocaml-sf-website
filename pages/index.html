@@ -28,12 +28,12 @@
       <div
         class="grid grid-cols-1 p-4 gap-4 
                 md:grid-cols-4 
-                lg:grid-cols-8 lg:grid-rows-4 lg:p-0"
+                lg:grid-cols-8  lg:p-0"
       >
 
       <header class="lg:col-start-2 lg:col-span-6
                       md:col-start-1 md:col-span-4
-                   h-16  mb-20 sm:mb-0
+                     h-16  mb-24
                     flex justify-between items-center">
 
         <img class="logo" src="../assets/ocsf_logo.svg" alt="Logo OCaml Software Foundation">
@@ -117,10 +117,12 @@
 
         <div
           class="md:col-start-1 md:col-span-2
-              lg:col-start-3 lg:col-span-2 "
+              lg:col-start-3 lg:col-span-2
+              mr-5 "
         >
+        <img class="w-16 mb-5" src="../assets/ic_internships.svg" alt="Internships Icon"/>
           <h4>Internships</h4>
-          <small>
+         <small>
             We fund internships to advance the OCaml ecosystem and also grow new
             OCaml contributors. In 2018-2019 we funded Outreachy internships to
             improve our testing of the OCaml compiler and language tools, a
@@ -131,8 +133,10 @@
 
         <div
           class="md:col-start-3 md:col-span-2 
-             lg:col-start-5 lg:col-span-2"
+             lg:col-start-5 lg:col-span-2
+             mr-5"
         >
+         <img class="w-16 mb-5" src="../assets/ic_learn.svg" alt="Learn OCaml Icon"/>
           <h4>Learn-OCaml Platform</h4>
           <small>
             We support the development of the Learn-OCaml exercise platform and
@@ -143,6 +147,12 @@
             new editions of the OCaml MOOC, open to everyone.
           </small>
         </div>
+
+
+<div class="col-start 1 lg:col-span-8 flex justify-center"> 
+<button class="w-32 p-3 m-3 border border-camel rounded-md font-serif text-camel">Learn more</button>
+</div>
+
       </div>
       <!--Grid Layout End-->
 
