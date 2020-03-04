@@ -116,58 +116,80 @@
         </div>
 
         <!-------------------------------------------------------------------------------->
-        <!--Section 2: Recent Actions-->
+        <!--SECTION 3: Recent Actions-->
         <div
           class="md:col-start-2 md:col-span-2
-                lg:col-start-3 lg:col-span-4"
+                lg:col-start-3 lg:col-span-4
+                mb-12"
         >
           <h1 class="mt-24">
             Some of our recent actions
           </h1>
         </div>
 
+        <!--Left Column-->
         <div
-          class="md:col-start-1 md:col-span-2
-              lg:col-start-3 lg:col-span-2
-              mr-5"
+          class="flex justify-center
+        lg:col-start-3 lg:col-span-2 lg:block
+        md:col-start-1 md:col-span-2"
         >
-          <img
-            class="w-16 mb-5"
-            src="../assets/ic_internships.svg"
-            alt="Internships Icon"
-          />
-          <h4>Internships</h4>
-          <small>
-            We fund internships to advance the OCaml ecosystem and also grow new
-            OCaml contributors. In 2018-2019 we funded Outreachy internships to
-            improve our testing of the OCaml compiler and language tools, a
-            research internship on OCaml type inference, and development
-            internships on teaching platforms.
-          </small>
+          <div
+            class="mb-12 
+            text-center flex flex-col max-w-xs
+            md:text-left md:block
+            lg:mr-6 lg:text-left lg:max-w-full
+            "
+          >
+            <img
+              class="h-16 mb-6 "
+              src="../assets/ic_internships.svg"
+              alt="Internships Icon"
+            />
+            <h4>Internships</h4>
+            <small>
+              We fund internships to advance the OCaml ecosystem and also grow
+              new OCaml contributors. In 2018-2019 we funded Outreachy
+              internships to improve our testing of the OCaml compiler and
+              language tools, a research internship on OCaml type inference, and
+              development internships on teaching platforms.
+            </small>
+          </div>
+        </div>
+
+        <!--Right Column-->
+        <div
+          class="md:flex md:justify-center
+          lg:col-start-5 lg:col-span-2
+          md:col-start-3 md:col-span-2"
+        >
+          <div
+            class=" md:max-w-xs 
+            sm:max-w-xs
+             
+             lg:mr-5"
+          >
+            <img
+              class="w-16 mb-6"
+              src="../assets/ic_learn.svg"
+              alt="Learn OCaml Icon"
+            />
+            <h4>Learn-OCaml Platform</h4>
+            <small>
+              We support the development of the Learn-OCaml exercise platform
+              and try to facilitate its adoption by teachers. We provided
+              financial support to some early-adopters of the Learn-OCaml
+              platform (McGill university). We are funding teachers to grow a
+              shared corpus of high-quality exercises. We also provided
+              financial support to run new editions of the OCaml MOOC, open to
+              everyone.
+            </small>
+          </div>
         </div>
 
         <div
-          class="md:col-start-3 md:col-span-2 
-             lg:col-start-5 lg:col-span-2
-             mr-5"
+          class="col-start-1 flex justify-center
+         md:col-span-4 lg:col-span-8 mt-6 mb-6"
         >
-          <img
-            class="w-16 mb-5"
-            src="../assets/ic_learn.svg"
-            alt="Learn OCaml Icon"
-          />
-          <h4>Learn-OCaml Platform</h4>
-          <small>
-            We support the development of the Learn-OCaml exercise platform and
-            try to facilitate its adoption by teachers. We provided financial
-            support to some early-adopters of the Learn-OCaml platform (McGill
-            university). We are funding teachers to grow a shared corpus of
-            high-quality exercises. We also provided financial support to run
-            new editions of the OCaml MOOC, open to everyone.
-          </small>
-        </div>
-
-        <div class="col-start 1 lg:col-span-8 flex justify-center">
           <button class="btn-main">
             Learn more
           </button>
@@ -182,7 +204,7 @@
             md:grid-cols-4 
             lg:grid-cols-8 grid-rows-4 lg:p-0"
       >
-        <!--Headline: Our current sponsors-->
+        <!--SECTION 4: Our current sponsors-->
         <div class="md:col-span-4 lg:col-span-8 "></div>
 
         <div
