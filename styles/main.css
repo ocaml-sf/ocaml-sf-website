@@ -1,51 +1,26 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
+@import "./_components.css";
 @import "tailwindcss/utilities";
+@import "./_utilities.css"
 
 @import "./_fonts.css";
+
+/* BASE STYLES / GLOBAL STYLES*/
 
 body {
   @apply font-sans;
 }
 
-
-/* UTILITIES*/
-/* Landingpage Logo-Boxes  */
-.rotate--90 {
-  transform: rotate(-90deg)
-}
-
-.border-left {
-  border-left: 4px solid #BFC6CE;
-}
-
-
-
-
-/* Nav-Links */
-
-.nav-link {
-  font-serif text-night-light;
-}
-
-
-
-
-
-
-
-
-
-/* BASE STYLES / GLOBAL STYLES*/
-
-
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
   @apply leading-tight font-serif text-night;
 }
 
-
 h1 {
-  @apply  text-5xl;
+  @apply text-5xl;
 }
 
 h2 {
@@ -66,12 +41,10 @@ p {
 
 small {
   @apply text-sm text-stone;
-  
 }
 
-
 ::selection {
-  background: #FFA180; /* WebKit/Blink Browsers */
+  background: #ffa180; /* WebKit/Blink Browsers */
 }
 
 a {
@@ -79,7 +52,5 @@ a {
 }
 
 a:hover {
-@apply underline
-
+  @apply underline;
 }
-

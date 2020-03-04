@@ -1,0 +1,9 @@
+/* UTILITIES*/
+
+/* Landingpage Logo-Boxes  */
+.rotate--90 {
+  transform: rotate(-90deg);
+}
+.border-left {
+  border-left: 4px solid #bfc6ce;
+}

@@ -12,17 +12,13 @@
     />
   </head>
 
-<!--END OF HEAD -->
-<!--START OF BODY -->
+  <!--END OF HEAD ^-->
+  <!--START OF BODY v-->
 
   <body>
     <main class="min-w-mobile">
-
-<!--lg:col-start-2 lg:col-span-6
-                     md:col-start-1 md:col-span-4-->
-
-
-
+      <!--lg:col-start-2 lg:col-span-6
+          md:col-start-1 md:col-span-4-->
 
       <!--Grid Layout Start-->
       <div
@@ -30,27 +26,34 @@
                 md:grid-cols-4 
                 lg:grid-cols-8  lg:p-0"
       >
-
-      <header class="lg:col-start-2 lg:col-span-6
+        <!-------------------------------------------------------------------------------->
+        <!--Navigation-->
+        <header
+          class="lg:col-start-2 lg:col-span-6
                       md:col-start-1 md:col-span-4
                      h-16  mb-24
-                    flex justify-between items-center">
+                    flex justify-between items-center"
+        >
+          <img
+            class="logo"
+            src="../assets/ocsf_logo.svg"
+            alt="Logo OCaml Software Foundation"
+          />
 
-        <img class="logo" src="../assets/ocsf_logo.svg" alt="Logo OCaml Software Foundation">
-
-        <nav class="flex flex-no-wrap whitespace-no-wrap overflow-auto flex-no-wrap">
+          <nav
+            class="flex flex-no-wrap whitespace-no-wrap overflow-auto flex-no-wrap"
+          >
             <a class="inline-block p-2" href="#">Actions</a>
             <a class="inline-block p-2" href="#">Become a sponsor</a>
             <a class="inline-block p-2" href="#">About us</a>
-        </nav>
-        
-      </header>
+          </nav>
+        </header>
 
-
+        <!-------------------------------------------------------------------------------->
         <!--Header with header image-->
         <div
           class="md:col-start-1 md:col-span-2
-                  lg:col-start-2 lg:col-span-2"
+                lg:col-start-2 lg:col-span-2"
         >
           <h1 class="">
             We empower OCaml and its community
@@ -71,22 +74,24 @@
 
         <div
           class="md:col-span-4
-                  lg:col-span-8 lg:row-span-2"
+                  lg:col-span-8 lg:row-span-2
+                  pt-6 pb-24"
         >
-          <img
-            src="../assets/header_img@2x.jpg"
-            alt="people programming"
-            class="mb-32"
-          />
+          <img src="../assets/header_img@2x.jpg" alt="people programming" />
         </div>
 
+        <!-------------------------------------------------------------------------------->
         <!--Section 1: Introduction-->
         <div
           class="md:col-start-1 md:col-span-2
-                lg:col-start-2 lg:col-span-3"
+                lg:col-start-2 lg:col-span-3
+                flex items-center
+                "
         >
-
-          <h4 class="text-2xl font-serif">
+          <h4
+            class="text-2xl font-serif font-normal leading-snug
+          "
+          >
             We collect donations from our sponsors, companies, entities or
             people interested in growing the OCaml programming language, and
             redistribute these resources to grow, support and strengthen the
@@ -95,22 +100,28 @@
         </div>
 
         <div
-          class="md:col-start-3 md:col-span-2
-          lg: col-start:5 lg:col-span-3"        
+          class="md:col-start-3 md:col-span-2 md:row-start-auto 
+          lg:col-start-5 lg:col-span-3
+          row-start-5
+          "
         >
           <img
-            class="w-2/3 md:w-full lg:w-full"
+            class="w-2/3 block ml-auto mr-auto mt-12 mb-12
+            md:max-w-sm md:float-right md:w-auto md:pl-6
+            lg:w-full lg:float-right lg:pl-6
+            "
             src="../assets/illu_ocaml@2x.jpg"
             alt="illustration"
           />
         </div>
 
+        <!-------------------------------------------------------------------------------->
         <!--Section 2: Recent Actions-->
         <div
           class="md:col-start-2 md:col-span-2
                 lg:col-start-3 lg:col-span-4"
         >
-          <h1 class="">
+          <h1 class="mt-24">
             Some of our recent actions
           </h1>
         </div>
@@ -118,11 +129,15 @@
         <div
           class="md:col-start-1 md:col-span-2
               lg:col-start-3 lg:col-span-2
-              mr-5 "
+              mr-5"
         >
-        <img class="w-16 mb-5" src="../assets/ic_internships.svg" alt="Internships Icon"/>
+          <img
+            class="w-16 mb-5"
+            src="../assets/ic_internships.svg"
+            alt="Internships Icon"
+          />
           <h4>Internships</h4>
-         <small>
+          <small>
             We fund internships to advance the OCaml ecosystem and also grow new
             OCaml contributors. In 2018-2019 we funded Outreachy internships to
             improve our testing of the OCaml compiler and language tools, a
@@ -136,7 +151,11 @@
              lg:col-start-5 lg:col-span-2
              mr-5"
         >
-         <img class="w-16 mb-5" src="../assets/ic_learn.svg" alt="Learn OCaml Icon"/>
+          <img
+            class="w-16 mb-5"
+            src="../assets/ic_learn.svg"
+            alt="Learn OCaml Icon"
+          />
           <h4>Learn-OCaml Platform</h4>
           <small>
             We support the development of the Learn-OCaml exercise platform and
@@ -148,15 +167,13 @@
           </small>
         </div>
 
-
-<div class="col-start 1 lg:col-span-8 flex justify-center"> 
-<button class="w-32 p-3 m-3 border border-camel rounded-md font-serif text-camel">Learn more</button>
-</div>
-
+        <div class="col-start 1 lg:col-span-8 flex justify-center">
+          <button class="btn-main">
+            Learn more
+          </button>
+        </div>
       </div>
       <!--Grid Layout End-->
-
-
 
       <!--2nd Grid Layout Start-->
       <div
@@ -165,11 +182,8 @@
             md:grid-cols-4 
             lg:grid-cols-8 grid-rows-4 lg:p-0"
       >
-
-      <!--Headline: Our current sponsors-->
-<div class="md:col-span-4 lg:col-span-8 ">
-
-</div>
+        <!--Headline: Our current sponsors-->
+        <div class="md:col-span-4 lg:col-span-8 "></div>
 
         <div
           class="md:col-start-1 md:col-span-2
@@ -184,7 +198,6 @@
           class="lg:col-start-5 lg:col-span-3 
             md:col-start-3 md:col-span-2"
         >
-
           <p>
             If your company would like to contribute in supporting and advancing
             the OCaml programming language and its community, please consider
@@ -192,88 +205,81 @@
           </p>
         </div>
 
-
         <!--3x Sponsor-Boxes transform rotate--90-->
         <div
-        class="h-32 bg-white relative rounded-md border-left
+          class="h-32 bg-white relative rounded-md border-left
         md:col-span-4
         lg:col-start-2 lg:col-span-6"
-        ><p class="h-32 w-32 absolute text-center transform rotate--90 ">Platinum</p>
-      </div>
-      <div
-      class="h-32 bg-white relative rounded-md border-left
+        >
+          <p class="h-32 w-32 absolute text-center transform rotate--90 ">
+            Platinum
+          </p>
+        </div>
+        <div
+          class="h-32 bg-white relative rounded-md border-left
       md:col-span-4
       lg:col-start-2 lg:col-span-6"
-      ><p class="h-32 w-32 absolute text-center transform rotate--90 ">Silver</p>
-    </div>
-      <div
-      class="h-32 bg-white relative rounded-md border-left
+        >
+          <p class="h-32 w-32 absolute text-center transform rotate--90 ">
+            Silver
+          </p>
+        </div>
+        <div
+          class="h-32 bg-white relative rounded-md border-left
       md:col-span-4
       lg:col-start-2 lg:col-span-6"
-      ><p class="h-32 w-32 absolute text-center transform rotate--90 ">Bronze</p>
-      </div>
-
+        >
+          <p class="h-32 w-32 absolute text-center transform rotate--90 ">
+            Bronze
+          </p>
+        </div>
 
         <!--One Emty row for spacing-->
-      <div
-      class="lg:col-start-5 lg:col-span-3 h-64
+        <div
+          class="lg:col-start-5 lg:col-span-3 h-64
         md:col-start-3 md:col-span-2"
-      >
+        ></div>
       </div>
 
-    </div>
+      <!--FOOTER IN A GRID-->
 
+      <footer class="bg-gray-900 text-white pt-12 pb-32">
+        <div class="grid lg:grid-cols-8 gap-4">
+          <div class="col-start-2 col-span-1 ">
+            <h3 class="text-orange-700">Ocaml Software Foundation</h3>
+            <ul>
+              <li>Email</li>
+              <li>Address</li>
+            </ul>
+          </div>
 
+          <div class="col-start-5 col-span-1 ">
+            <h3 class="text-orange-700">Sitemap</h3>
+            <ul>
+              <li>Become a Sponsor</li>
+              <li>Actions</li>
+              <li>About</li>
+            </ul>
+          </div>
 
+          <div class="col-start-6 col-span-1 ">
+            <h3 class="text-orange-700">Social Media</h3>
+            <ul>
+              <li>Twitter</li>
+              <li>Address</li>
+            </ul>
+          </div>
 
-        <!--FOOTER IN A GRID-->
-
-      <footer 
-      class="bg-gray-900 text-white pt-12 pb-32">
-      
-
-      <div class="grid lg:grid-cols-8 gap-4">
-
-        <div class="col-start-2 col-span-1 ">
-          <h3 class="text-orange-700">Ocaml Software Foundation</h3> 
-          <ul>
-            <li>Email</li>
-            <li>Address</li>
-          </ul> 
+          <div class="col-start-7 col-span-1 ">
+            <h3 class="text-orange-700">Legal</h3>
+            <ul>
+              <li>Impressum</li>
+              <li>Statutes</li>
+              <li>Inria Foundation</li>
+            </ul>
+          </div>
         </div>
-
-        <div class="col-start-5 col-span-1 ">
-          <h3 class="text-orange-700">Sitemap</h3> 
-          <ul>
-            <li>Become a Sponsor</li>
-            <li>Actions</li>
-            <li>About</li>
-          </ul> 
-        </div>
-
-
-        <div class="col-start-6 col-span-1 ">
-          <h3 class="text-orange-700">Social Media</h3> 
-          <ul>
-            <li>Twitter</li>
-            <li>Address</li>
-          </ul> 
-        </div>
-
-
-        <div class="col-start-7 col-span-1 ">
-          <h3 class="text-orange-700">Legal</h3> 
-          <ul>
-            <li>Impressum</li>
-            <li>Statutes</li>
-            <li>Inria Foundation</li>
-          </ul> 
-        </div>
-
-      </div>
-      
-      
-     </footer>
+      </footer>
     </main>
   </body>
 </html>
