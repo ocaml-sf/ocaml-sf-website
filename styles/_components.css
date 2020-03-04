@@ -1,10 +1,12 @@
 /*COMPONENTS*/
+
+
 .btn-main {
   @apply w-32 p-3 m-3 border border-camel rounded-md font-serif text-camel;
 }
 
-/* Nav-Links */
 
+/* Defining Links in Top Navigation */
 .nav-link {
   @apply font-serif text-night-light;
 }

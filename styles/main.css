@@ -2,9 +2,11 @@
 @import "tailwindcss/components";
 @import "./_components.css";
 @import "tailwindcss/utilities";
-@import "./_utilities.css"
+@import "./_utilities.css";
 
 @import "./_fonts.css";
+
+
 
 /* BASE STYLES / GLOBAL STYLES*/
 
@@ -43,9 +45,7 @@ small {
   @apply text-sm text-stone;
 }
 
-::selection {
-  background: #ffa180; /* WebKit/Blink Browsers */
-}
+/* Styling Links */
 
 a {
   @apply font-serif text-night-light;

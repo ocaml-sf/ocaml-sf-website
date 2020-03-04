@@ -7,3 +7,7 @@
 .border-left {
   border-left: 4px solid #bfc6ce;
 }
+
+::selection {
+    background: #ffa180; /* WebKit/Blink Browsers */
+  }
