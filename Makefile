@@ -1,13 +1,13 @@
 SHELL = /bin/sh
 SOURCE_PAGES:=$(notdir $(wildcard content/*.md))
-HTML_PAGES:=$(patsubst %.md,build/%.html,$(SOURCE_PAGES))
+MD_PAGES:=$(patsubst %.md,build/%.html,$(SOURCE_PAGES))
 TEMPLATE:=layouts/main-layout.html
 
 # TODO: production build with NODE_ENV=production 
 
 working_dir = $(realpath .)
 
-all: site $(HTML_PAGES) css
+all: site $(MD_PAGES) build/index.html css
 
 site:
 	mkdir -p build
@@ -23,6 +23,13 @@ build/%.html: content/%.md $(TEMPLATE)
 		--title-prefix "OCSF" \
 		$< -o $@
 
+build/index.html: content/index.html $(TEMPLATE)
+	pandoc \
+		--template $(TEMPLATE) \
+		--title-prefix "OCSF" \
+		--metadata title="Home" \
+		content/index.html -o $@
+
 clean:
 	rm -r build
 
@@ -30,6 +37,6 @@ dist:
 	echo "not implemented"
 
 watch:
-	watchman-make -p 'layouts/*.html' 'content/*.md' 'Makefile' -t all
+	watchman-make -p 'layouts/*.html' 'content/*.md' 'content/*.html' 'Makefile' -t all
 
 .PHONY: css dist build clean watch

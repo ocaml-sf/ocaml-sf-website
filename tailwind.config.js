@@ -13,6 +13,7 @@ module.exports = {
         stone: "#6A6B6F",
         ghost: {
           default: "#F9FAF9",
+          light: "#80818B",
           '44': "rgba(249, 250, 249, 0.44)"
         }
       },
@@ -30,8 +31,10 @@ module.exports = {
      so we added the Tailwind default values here for
      convenience */
     fontSize: {
+      '14': "1rem",
       '16': "1rem",
       '18': "1.125rem",
+      '24': "1.5rem",
       '26': "1.625rem",
       xs: ".75rem",
       sm: ".875rem",

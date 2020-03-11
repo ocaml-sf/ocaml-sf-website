@@ -1,9 +1,8 @@
-/*COMPONENTS*/
+/* purgecss start ignore */
 
 .btn-main {
-  @apply w-32 p-3 m-3 border border-camel rounded-md font-serif text-camel;
+  @apply w-32 p-3 m-3 border text-center border-camel rounded-md font-serif text-camel;
 }
-
 
 /* Defining Links in Top Navigation */
 .nav-link {
@@ -14,3 +13,4 @@
 .intro {
   @apply text-26 font-serif;
 }
+/* purgecss end ignore */

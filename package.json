@@ -18,7 +18,9 @@
     "url": "https://github.com/bettistein/ocaml-sf-website/issues"
   },
   "homepage": "https://github.com/bettistein/ocaml-sf-website#readme",
-  "dependencies": {},
+  "dependencies": {
+    "prettier": "^1.19.1"
+  },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.0.6",
     "autoprefixer": "^9.7.4",

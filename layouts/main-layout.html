@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <link rel="stylesheet" type="text/css" href="main.css" />
@@ -23,44 +23,48 @@
       <!--lg:col-start-2 lg:col-span-6
           md:col-start-1 md:col-span-4-->
 
-      <div class="flex justify-center"
-      >
+      <div class="flex justify-center">
         <!-------------------------------------------------------------------------------->
         <!--Navigation-->
         <header
           class="pl-4 sm:px-4 pt-8 max-w-6xl h-16  w-full flex sm:justify-between items-center"
         >
-        <div class="flex justify-center">
-          <img
-            class="hidden sm:block w-40"
-            src="../assets/ocsf_logo.svg"
-            alt="Logo OCaml Software Foundation"
-          />
-          <img
-            class="sm:hidden w-8 mr-8"
-            src="../assets/ocsf_logo_compact.svg"
-            alt="Logo OCaml Software Foundation Small"
-          />
-        </div>
+          <div class="flex justify-center">
+            <a href="index.html">
+              <img
+                class="hidden sm:block w-40"
+                src="./assets/ocsf_logo.svg"
+                alt="Logo OCaml Software Foundation"
+              />
+              <img
+                class="sm:hidden w-8 mr-8"
+                src="./assets/ocsf_logo_compact.svg"
+                alt="Logo OCaml Software Foundation Small"
+              />
+            </a>
+          </div>
           <nav
             class="text-18 flex flex-no-wrap whitespace-no-wrap overflow-auto text-night-light"
           >
-            <a class="inline-block p-2" href="#">Actions</a>
-            <a class="inline-block p-2" href="#">Become a sponsor</a>
-            <a class="inline-block py-2" href="#">About us</a>
+            <a class="inline-block py-2" href="actions.html">Actions</a>
+            <a class="inline-block ml-4 py-2" href="becoming-a-sponsor.html"
+              >Become a sponsor</a
+            >
+            <a class="inline-block ml-4 py-2" href="about-us.html">About us</a>
           </nav>
         </header>
-
       </div>
       <main class="px-4 mt-12 mb-12 flex justify-center">
-        <div class="md max-w-3xl w-full">
+        <div class="md max-w-6xl mt-20 w-full">
           $body$
         </div>
       </main>
 
       <!--FOOTER IN A GRID-->
 
-      <footer class="px-4 flex sm:justify-center bg-gray-900 font-serif font-medium text-16 text-white pt-12 pb-32">
+      <footer
+        class="px-4 flex sm:justify-center bg-gray-900 font-serif font-medium text-16 text-white pt-12 pb-32"
+      >
         <div class="max-w-6xl grid grid-cols-2 sm:grid-cols-8 gap-4 row-gap-6">
           <div class="sm:col-span-3 ">
             <div class="text-camel">Ocaml Software Foundation</div>
@@ -70,9 +74,9 @@
               <li>
                 <img
                   class="pt-4"
-                  src="../assets/ocsf_logo_compact.svg"
+                  src="./assets/ocsf_logo_compact.svg"
                   alt="Logo OCaml Software Foundation Small"
-                  />
+                />
               </li>
             </ul>
           </div>
