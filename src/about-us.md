@@ -1,4 +1,7 @@
-% The people behind the Foundation
+---
+layout: main-layout.liquid
+pageTitle: OCFS - About us
+---
 
 # About us
 

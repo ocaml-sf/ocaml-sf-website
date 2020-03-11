@@ -1,4 +1,7 @@
-% The Learn-OCaml technical platform
+---
+layout: main-layout.liquid
+pageTitle: OCFS - Learn OCaml
+---
 
 # The Learn-OCaml Technical Platform
 

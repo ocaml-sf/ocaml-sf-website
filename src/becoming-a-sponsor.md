@@ -1,4 +1,7 @@
-% Becoming a sponsor
+---
+layout: main-layout.liquid
+pageTitle: OCFS - Becoming a Sponsor 
+---
 
 # Becoming a Sponsor
 

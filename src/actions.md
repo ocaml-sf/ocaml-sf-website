@@ -1,4 +1,7 @@
-% Our actions
+---
+layout: main-layout.liquid
+pageTitle: OCFS - Our Actions
+---
 
 # Our Actions
 

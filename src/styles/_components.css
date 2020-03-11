@@ -13,4 +13,8 @@
 .intro {
   @apply text-26 font-serif;
 }
+
+.test {
+  @apply text-5xl;
+}
 /* purgecss end ignore */
