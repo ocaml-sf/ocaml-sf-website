@@ -1,0 +1,50 @@
+.md h1,
+.md h2,
+.md h3,
+.md h4 {
+  @apply leading-tight font-serif text-night;
+}
+
+.md h1 {
+  @apply text-5xl mb-4;
+}
+
+.md h2 {
+  @apply text-4xl my-4;
+}
+
+.md h3 {
+  @apply text-2xl font-medium my-4;
+}
+
+.md h4 {
+  @apply text-xl font-medium my-4;
+}
+
+.md p {
+  @apply text-night-light font-sans;
+}
+
+.md small {
+  @apply text-sm text-stone;
+}
+
+.md ul {
+  @apply my-8 list-disc;
+}
+
+.md ol {
+  @apply list-decimal;
+}
+
+.md ol > li {
+  counter-increment: li;
+}
+
+.md ul > li, .md ol > li {
+  @apply ml-4;
+}
+
+.md p + p {
+  @apply mt-3;
+}

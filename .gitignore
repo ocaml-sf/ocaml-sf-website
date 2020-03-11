@@ -1,5 +1,6 @@
 # Ignores dev / production build css
 pages/*.css
+build/
 
 node_modules
 .DS_Store

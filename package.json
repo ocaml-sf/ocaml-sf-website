@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "css:watch": "postcss -w styles/main.css -o pages/main.css",
-    "css:build": "NODE_ENV=production postcss styles/main.css -o pages/main.css"
+    "css:watch": "postcss -w styles/main.css -o build/main.css",
+    "css:build": "NODE_ENV=production postcss styles/main.css -o build/main.css"
   },
   "repository": {
     "type": "git",

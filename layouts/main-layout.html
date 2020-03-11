@@ -6,11 +6,13 @@
       href="https://fonts.googleapis.com/css?family=Lato|Zilla+Slab:400,400i,500&display=swap"
       rel="stylesheet"
     />
-    <meta charset="ISO-8859-1" />
+    <meta charset="UTF-8" />
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, minimal-ui"
     />
+
+    <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
   </head>
 
   <!--END OF HEAD ^-->
@@ -50,8 +52,8 @@
         </header>
 
       </div>
-      <main class="mt-12 mb-12 flex justify-center">
-        <div className="max-w-6xl w-full">
+      <main class="px-4 mt-12 mb-12 flex justify-center">
+        <div class="md max-w-3xl w-full">
           $body$
         </div>
       </main>

@@ -4,9 +4,8 @@
 @import "tailwindcss/utilities";
 @import "./_utilities.css";
 
+@import "./_markdown.css";
 @import "./_fonts.css";
-
-
 
 /* BASE STYLES / GLOBAL STYLES*/
 
@@ -14,39 +13,7 @@ body {
   @apply font-sans;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  @apply leading-tight font-serif text-night;
-}
-
-h1 {
-  @apply text-5xl;
-}
-
-h2 {
-  @apply text-4xl;
-}
-
-h3 {
-  @apply text-2xl font-medium;
-}
-
-h4 {
-  @apply text-xl font-medium;
-}
-
-p {
-  @apply text-night-light font-sans;
-}
-
-small {
-  @apply text-sm text-stone;
-}
-
 /* Styling Links */
-
 a {
   @apply font-serif text-night-light;
 }
