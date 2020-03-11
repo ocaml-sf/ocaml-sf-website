@@ -1,11 +1,13 @@
 /* UTILITIES*/
 
-/* Landingpage Logo-Boxes  */
-.rotate--90 {
-  transform: rotate(-90deg);
-}
-.border-left {
-  border-left: 4px solid #bfc6ce;
+@responsive {
+  .order-0 {
+    order: 0;
+  }
+  
+  .order-1 {
+    order: 1;
+  }
 }
 
 ::selection {

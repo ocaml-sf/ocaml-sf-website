@@ -15,6 +15,12 @@ module.exports = {
           default: "#F9FAF9",
           light: "#80818B",
           '44': "rgba(249, 250, 249, 0.44)"
+        },
+        platinum: {
+          default: "#BFC6CE"
+        },
+        bronze: {
+          default: "#D66942"
         }
       },
       minWidth: {
@@ -31,11 +37,15 @@ module.exports = {
      so we added the Tailwind default values here for
      convenience */
     fontSize: {
-      '14': "1rem",
+      '14': "0.875rem",
       '16': "1rem",
       '18': "1.125rem",
+      '21': "1.3125rem",
       '24': "1.5rem",
       '26': "1.625rem",
+      '50': "3.125rem",
+      '60': "3.75rem",
+      '72': "4.5rem",
       xs: ".75rem",
       sm: ".875rem",
       base: "1rem",

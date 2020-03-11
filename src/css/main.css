@@ -651,10 +651,6 @@ video {
   font-family: Zilla Slab, Georgia, -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial, sans-serif;
 }
 
-.test {
-  font-size: 3rem;
-}
-
 /* purgecss end ignore */
 
 .sr-only {
@@ -1125,6 +1121,14 @@ video {
   background-color: #80818B;
 }
 
+.bg-platinum {
+  background-color: #BFC6CE;
+}
+
+.bg-bronze {
+  background-color: #D66942;
+}
+
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -1529,6 +1533,14 @@ video {
   background-color: #80818B;
 }
 
+.hover\:bg-platinum:hover {
+  background-color: #BFC6CE;
+}
+
+.hover\:bg-bronze:hover {
+  background-color: #D66942;
+}
+
 .focus\:bg-transparent:focus {
   background-color: transparent;
 }
@@ -1931,6 +1943,14 @@ video {
 
 .focus\:bg-ghost-light:focus {
   background-color: #80818B;
+}
+
+.focus\:bg-platinum:focus {
+  background-color: #BFC6CE;
+}
+
+.focus\:bg-bronze:focus {
+  background-color: #D66942;
 }
 
 .bg-bottom {
@@ -2417,6 +2437,14 @@ video {
   border-color: #80818B;
 }
 
+.border-platinum {
+  border-color: #BFC6CE;
+}
+
+.border-bronze {
+  border-color: #D66942;
+}
+
 .hover\:border-transparent:hover {
   border-color: transparent;
 }
@@ -2821,6 +2849,14 @@ video {
   border-color: #80818B;
 }
 
+.hover\:border-platinum:hover {
+  border-color: #BFC6CE;
+}
+
+.hover\:border-bronze:hover {
+  border-color: #D66942;
+}
+
 .focus\:border-transparent:focus {
   border-color: transparent;
 }
@@ -3223,6 +3259,14 @@ video {
 
 .focus\:border-ghost-light:focus {
   border-color: #80818B;
+}
+
+.focus\:border-platinum:focus {
+  border-color: #BFC6CE;
+}
+
+.focus\:border-bronze:focus {
+  border-color: #D66942;
 }
 
 .rounded-none {
@@ -8231,6 +8275,46 @@ video {
   color: #80818B;
 }
 
+.placeholder-platinum::-webkit-input-placeholder {
+  color: #BFC6CE;
+}
+
+.placeholder-platinum::-moz-placeholder {
+  color: #BFC6CE;
+}
+
+.placeholder-platinum:-ms-input-placeholder {
+  color: #BFC6CE;
+}
+
+.placeholder-platinum::-ms-input-placeholder {
+  color: #BFC6CE;
+}
+
+.placeholder-platinum::placeholder {
+  color: #BFC6CE;
+}
+
+.placeholder-bronze::-webkit-input-placeholder {
+  color: #D66942;
+}
+
+.placeholder-bronze::-moz-placeholder {
+  color: #D66942;
+}
+
+.placeholder-bronze:-ms-input-placeholder {
+  color: #D66942;
+}
+
+.placeholder-bronze::-ms-input-placeholder {
+  color: #D66942;
+}
+
+.placeholder-bronze::placeholder {
+  color: #D66942;
+}
+
 .focus\:placeholder-transparent:focus::-webkit-input-placeholder {
   color: transparent;
 }
@@ -10251,6 +10335,46 @@ video {
   color: #80818B;
 }
 
+.focus\:placeholder-platinum:focus::-webkit-input-placeholder {
+  color: #BFC6CE;
+}
+
+.focus\:placeholder-platinum:focus::-moz-placeholder {
+  color: #BFC6CE;
+}
+
+.focus\:placeholder-platinum:focus:-ms-input-placeholder {
+  color: #BFC6CE;
+}
+
+.focus\:placeholder-platinum:focus::-ms-input-placeholder {
+  color: #BFC6CE;
+}
+
+.focus\:placeholder-platinum:focus::placeholder {
+  color: #BFC6CE;
+}
+
+.focus\:placeholder-bronze:focus::-webkit-input-placeholder {
+  color: #D66942;
+}
+
+.focus\:placeholder-bronze:focus::-moz-placeholder {
+  color: #D66942;
+}
+
+.focus\:placeholder-bronze:focus:-ms-input-placeholder {
+  color: #D66942;
+}
+
+.focus\:placeholder-bronze:focus::-ms-input-placeholder {
+  color: #D66942;
+}
+
+.focus\:placeholder-bronze:focus::placeholder {
+  color: #D66942;
+}
+
 .pointer-events-none {
   pointer-events: none;
 }
@@ -10930,6 +11054,14 @@ video {
   color: #80818B;
 }
 
+.text-platinum {
+  color: #BFC6CE;
+}
+
+.text-bronze {
+  color: #D66942;
+}
+
 .hover\:text-transparent:hover {
   color: transparent;
 }
@@ -11332,6 +11464,14 @@ video {
 
 .hover\:text-ghost-light:hover {
   color: #80818B;
+}
+
+.hover\:text-platinum:hover {
+  color: #BFC6CE;
+}
+
+.hover\:text-bronze:hover {
+  color: #D66942;
 }
 
 .focus\:text-transparent:focus {
@@ -11738,8 +11878,16 @@ video {
   color: #80818B;
 }
 
+.focus\:text-platinum:focus {
+  color: #BFC6CE;
+}
+
+.focus\:text-bronze:focus {
+  color: #D66942;
+}
+
 .text-14 {
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 
 .text-16 {
@@ -11750,12 +11898,28 @@ video {
   font-size: 1.125rem;
 }
 
+.text-21 {
+  font-size: 1.3125rem;
+}
+
 .text-24 {
   font-size: 1.5rem;
 }
 
 .text-26 {
   font-size: 1.625rem;
+}
+
+.text-50 {
+  font-size: 3.125rem;
+}
+
+.text-60 {
+  font-size: 3.75rem;
+}
+
+.text-72 {
+  font-size: 4.5rem;
 }
 
 .text-xs {
@@ -14721,14 +14885,12 @@ Example of using a google font as a self hosted .woff file
 
 /* UTILITIES*/
 
-/* Landingpage Logo-Boxes  */
-
-.rotate--90 {
-  transform: rotate(-90deg);
+.order-0 {
+  order: 0;
 }
 
-.border-left {
-  border-left: 4px solid #bfc6ce;
+.order-1 {
+  order: 1;
 }
 
 ::-moz-selection {
@@ -15225,6 +15387,14 @@ a:hover {
     background-color: #80818B;
   }
 
+  .sm\:bg-platinum {
+    background-color: #BFC6CE;
+  }
+
+  .sm\:bg-bronze {
+    background-color: #D66942;
+  }
+
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -15629,6 +15799,14 @@ a:hover {
     background-color: #80818B;
   }
 
+  .sm\:hover\:bg-platinum:hover {
+    background-color: #BFC6CE;
+  }
+
+  .sm\:hover\:bg-bronze:hover {
+    background-color: #D66942;
+  }
+
   .sm\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -16031,6 +16209,14 @@ a:hover {
 
   .sm\:focus\:bg-ghost-light:focus {
     background-color: #80818B;
+  }
+
+  .sm\:focus\:bg-platinum:focus {
+    background-color: #BFC6CE;
+  }
+
+  .sm\:focus\:bg-bronze:focus {
+    background-color: #D66942;
   }
 
   .sm\:bg-bottom {
@@ -16517,6 +16703,14 @@ a:hover {
     border-color: #80818B;
   }
 
+  .sm\:border-platinum {
+    border-color: #BFC6CE;
+  }
+
+  .sm\:border-bronze {
+    border-color: #D66942;
+  }
+
   .sm\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -16921,6 +17115,14 @@ a:hover {
     border-color: #80818B;
   }
 
+  .sm\:hover\:border-platinum:hover {
+    border-color: #BFC6CE;
+  }
+
+  .sm\:hover\:border-bronze:hover {
+    border-color: #D66942;
+  }
+
   .sm\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -17323,6 +17525,14 @@ a:hover {
 
   .sm\:focus\:border-ghost-light:focus {
     border-color: #80818B;
+  }
+
+  .sm\:focus\:border-platinum:focus {
+    border-color: #BFC6CE;
+  }
+
+  .sm\:focus\:border-bronze:focus {
+    border-color: #D66942;
   }
 
   .sm\:rounded-none {
@@ -22331,6 +22541,46 @@ a:hover {
     color: #80818B;
   }
 
+  .sm\:placeholder-platinum::-webkit-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .sm\:placeholder-platinum::-moz-placeholder {
+    color: #BFC6CE;
+  }
+
+  .sm\:placeholder-platinum:-ms-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .sm\:placeholder-platinum::-ms-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .sm\:placeholder-platinum::placeholder {
+    color: #BFC6CE;
+  }
+
+  .sm\:placeholder-bronze::-webkit-input-placeholder {
+    color: #D66942;
+  }
+
+  .sm\:placeholder-bronze::-moz-placeholder {
+    color: #D66942;
+  }
+
+  .sm\:placeholder-bronze:-ms-input-placeholder {
+    color: #D66942;
+  }
+
+  .sm\:placeholder-bronze::-ms-input-placeholder {
+    color: #D66942;
+  }
+
+  .sm\:placeholder-bronze::placeholder {
+    color: #D66942;
+  }
+
   .sm\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
     color: transparent;
   }
@@ -24351,6 +24601,46 @@ a:hover {
     color: #80818B;
   }
 
+  .sm\:focus\:placeholder-platinum:focus::-webkit-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .sm\:focus\:placeholder-platinum:focus::-moz-placeholder {
+    color: #BFC6CE;
+  }
+
+  .sm\:focus\:placeholder-platinum:focus:-ms-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .sm\:focus\:placeholder-platinum:focus::-ms-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .sm\:focus\:placeholder-platinum:focus::placeholder {
+    color: #BFC6CE;
+  }
+
+  .sm\:focus\:placeholder-bronze:focus::-webkit-input-placeholder {
+    color: #D66942;
+  }
+
+  .sm\:focus\:placeholder-bronze:focus::-moz-placeholder {
+    color: #D66942;
+  }
+
+  .sm\:focus\:placeholder-bronze:focus:-ms-input-placeholder {
+    color: #D66942;
+  }
+
+  .sm\:focus\:placeholder-bronze:focus::-ms-input-placeholder {
+    color: #D66942;
+  }
+
+  .sm\:focus\:placeholder-bronze:focus::placeholder {
+    color: #D66942;
+  }
+
   .sm\:pointer-events-none {
     pointer-events: none;
   }
@@ -25030,6 +25320,14 @@ a:hover {
     color: #80818B;
   }
 
+  .sm\:text-platinum {
+    color: #BFC6CE;
+  }
+
+  .sm\:text-bronze {
+    color: #D66942;
+  }
+
   .sm\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -25432,6 +25730,14 @@ a:hover {
 
   .sm\:hover\:text-ghost-light:hover {
     color: #80818B;
+  }
+
+  .sm\:hover\:text-platinum:hover {
+    color: #BFC6CE;
+  }
+
+  .sm\:hover\:text-bronze:hover {
+    color: #D66942;
   }
 
   .sm\:focus\:text-transparent:focus {
@@ -25838,8 +26144,16 @@ a:hover {
     color: #80818B;
   }
 
+  .sm\:focus\:text-platinum:focus {
+    color: #BFC6CE;
+  }
+
+  .sm\:focus\:text-bronze:focus {
+    color: #D66942;
+  }
+
   .sm\:text-14 {
-    font-size: 1rem;
+    font-size: 0.875rem;
   }
 
   .sm\:text-16 {
@@ -25850,12 +26164,28 @@ a:hover {
     font-size: 1.125rem;
   }
 
+  .sm\:text-21 {
+    font-size: 1.3125rem;
+  }
+
   .sm\:text-24 {
     font-size: 1.5rem;
   }
 
   .sm\:text-26 {
     font-size: 1.625rem;
+  }
+
+  .sm\:text-50 {
+    font-size: 3.125rem;
+  }
+
+  .sm\:text-60 {
+    font-size: 3.75rem;
+  }
+
+  .sm\:text-72 {
+    font-size: 4.5rem;
   }
 
   .sm\:text-xs {
@@ -28738,6 +29068,14 @@ a:hover {
   .sm\:duration-1000 {
     transition-duration: 1000ms;
   }
+
+  .sm\:order-0 {
+    order: 0;
+  }
+
+  .sm\:order-1 {
+    order: 1;
+  }
 }
 
 @media (min-width: 768px) {
@@ -29209,6 +29547,14 @@ a:hover {
     background-color: #80818B;
   }
 
+  .md\:bg-platinum {
+    background-color: #BFC6CE;
+  }
+
+  .md\:bg-bronze {
+    background-color: #D66942;
+  }
+
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -29613,6 +29959,14 @@ a:hover {
     background-color: #80818B;
   }
 
+  .md\:hover\:bg-platinum:hover {
+    background-color: #BFC6CE;
+  }
+
+  .md\:hover\:bg-bronze:hover {
+    background-color: #D66942;
+  }
+
   .md\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -30015,6 +30369,14 @@ a:hover {
 
   .md\:focus\:bg-ghost-light:focus {
     background-color: #80818B;
+  }
+
+  .md\:focus\:bg-platinum:focus {
+    background-color: #BFC6CE;
+  }
+
+  .md\:focus\:bg-bronze:focus {
+    background-color: #D66942;
   }
 
   .md\:bg-bottom {
@@ -30501,6 +30863,14 @@ a:hover {
     border-color: #80818B;
   }
 
+  .md\:border-platinum {
+    border-color: #BFC6CE;
+  }
+
+  .md\:border-bronze {
+    border-color: #D66942;
+  }
+
   .md\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -30905,6 +31275,14 @@ a:hover {
     border-color: #80818B;
   }
 
+  .md\:hover\:border-platinum:hover {
+    border-color: #BFC6CE;
+  }
+
+  .md\:hover\:border-bronze:hover {
+    border-color: #D66942;
+  }
+
   .md\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -31307,6 +31685,14 @@ a:hover {
 
   .md\:focus\:border-ghost-light:focus {
     border-color: #80818B;
+  }
+
+  .md\:focus\:border-platinum:focus {
+    border-color: #BFC6CE;
+  }
+
+  .md\:focus\:border-bronze:focus {
+    border-color: #D66942;
   }
 
   .md\:rounded-none {
@@ -36315,6 +36701,46 @@ a:hover {
     color: #80818B;
   }
 
+  .md\:placeholder-platinum::-webkit-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .md\:placeholder-platinum::-moz-placeholder {
+    color: #BFC6CE;
+  }
+
+  .md\:placeholder-platinum:-ms-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .md\:placeholder-platinum::-ms-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .md\:placeholder-platinum::placeholder {
+    color: #BFC6CE;
+  }
+
+  .md\:placeholder-bronze::-webkit-input-placeholder {
+    color: #D66942;
+  }
+
+  .md\:placeholder-bronze::-moz-placeholder {
+    color: #D66942;
+  }
+
+  .md\:placeholder-bronze:-ms-input-placeholder {
+    color: #D66942;
+  }
+
+  .md\:placeholder-bronze::-ms-input-placeholder {
+    color: #D66942;
+  }
+
+  .md\:placeholder-bronze::placeholder {
+    color: #D66942;
+  }
+
   .md\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
     color: transparent;
   }
@@ -38335,6 +38761,46 @@ a:hover {
     color: #80818B;
   }
 
+  .md\:focus\:placeholder-platinum:focus::-webkit-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .md\:focus\:placeholder-platinum:focus::-moz-placeholder {
+    color: #BFC6CE;
+  }
+
+  .md\:focus\:placeholder-platinum:focus:-ms-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .md\:focus\:placeholder-platinum:focus::-ms-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .md\:focus\:placeholder-platinum:focus::placeholder {
+    color: #BFC6CE;
+  }
+
+  .md\:focus\:placeholder-bronze:focus::-webkit-input-placeholder {
+    color: #D66942;
+  }
+
+  .md\:focus\:placeholder-bronze:focus::-moz-placeholder {
+    color: #D66942;
+  }
+
+  .md\:focus\:placeholder-bronze:focus:-ms-input-placeholder {
+    color: #D66942;
+  }
+
+  .md\:focus\:placeholder-bronze:focus::-ms-input-placeholder {
+    color: #D66942;
+  }
+
+  .md\:focus\:placeholder-bronze:focus::placeholder {
+    color: #D66942;
+  }
+
   .md\:pointer-events-none {
     pointer-events: none;
   }
@@ -39014,6 +39480,14 @@ a:hover {
     color: #80818B;
   }
 
+  .md\:text-platinum {
+    color: #BFC6CE;
+  }
+
+  .md\:text-bronze {
+    color: #D66942;
+  }
+
   .md\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -39416,6 +39890,14 @@ a:hover {
 
   .md\:hover\:text-ghost-light:hover {
     color: #80818B;
+  }
+
+  .md\:hover\:text-platinum:hover {
+    color: #BFC6CE;
+  }
+
+  .md\:hover\:text-bronze:hover {
+    color: #D66942;
   }
 
   .md\:focus\:text-transparent:focus {
@@ -39822,8 +40304,16 @@ a:hover {
     color: #80818B;
   }
 
+  .md\:focus\:text-platinum:focus {
+    color: #BFC6CE;
+  }
+
+  .md\:focus\:text-bronze:focus {
+    color: #D66942;
+  }
+
   .md\:text-14 {
-    font-size: 1rem;
+    font-size: 0.875rem;
   }
 
   .md\:text-16 {
@@ -39834,12 +40324,28 @@ a:hover {
     font-size: 1.125rem;
   }
 
+  .md\:text-21 {
+    font-size: 1.3125rem;
+  }
+
   .md\:text-24 {
     font-size: 1.5rem;
   }
 
   .md\:text-26 {
     font-size: 1.625rem;
+  }
+
+  .md\:text-50 {
+    font-size: 3.125rem;
+  }
+
+  .md\:text-60 {
+    font-size: 3.75rem;
+  }
+
+  .md\:text-72 {
+    font-size: 4.5rem;
   }
 
   .md\:text-xs {
@@ -42722,6 +43228,14 @@ a:hover {
   .md\:duration-1000 {
     transition-duration: 1000ms;
   }
+
+  .md\:order-0 {
+    order: 0;
+  }
+
+  .md\:order-1 {
+    order: 1;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -43193,6 +43707,14 @@ a:hover {
     background-color: #80818B;
   }
 
+  .lg\:bg-platinum {
+    background-color: #BFC6CE;
+  }
+
+  .lg\:bg-bronze {
+    background-color: #D66942;
+  }
+
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -43597,6 +44119,14 @@ a:hover {
     background-color: #80818B;
   }
 
+  .lg\:hover\:bg-platinum:hover {
+    background-color: #BFC6CE;
+  }
+
+  .lg\:hover\:bg-bronze:hover {
+    background-color: #D66942;
+  }
+
   .lg\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -43999,6 +44529,14 @@ a:hover {
 
   .lg\:focus\:bg-ghost-light:focus {
     background-color: #80818B;
+  }
+
+  .lg\:focus\:bg-platinum:focus {
+    background-color: #BFC6CE;
+  }
+
+  .lg\:focus\:bg-bronze:focus {
+    background-color: #D66942;
   }
 
   .lg\:bg-bottom {
@@ -44485,6 +45023,14 @@ a:hover {
     border-color: #80818B;
   }
 
+  .lg\:border-platinum {
+    border-color: #BFC6CE;
+  }
+
+  .lg\:border-bronze {
+    border-color: #D66942;
+  }
+
   .lg\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -44889,6 +45435,14 @@ a:hover {
     border-color: #80818B;
   }
 
+  .lg\:hover\:border-platinum:hover {
+    border-color: #BFC6CE;
+  }
+
+  .lg\:hover\:border-bronze:hover {
+    border-color: #D66942;
+  }
+
   .lg\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -45291,6 +45845,14 @@ a:hover {
 
   .lg\:focus\:border-ghost-light:focus {
     border-color: #80818B;
+  }
+
+  .lg\:focus\:border-platinum:focus {
+    border-color: #BFC6CE;
+  }
+
+  .lg\:focus\:border-bronze:focus {
+    border-color: #D66942;
   }
 
   .lg\:rounded-none {
@@ -50299,6 +50861,46 @@ a:hover {
     color: #80818B;
   }
 
+  .lg\:placeholder-platinum::-webkit-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .lg\:placeholder-platinum::-moz-placeholder {
+    color: #BFC6CE;
+  }
+
+  .lg\:placeholder-platinum:-ms-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .lg\:placeholder-platinum::-ms-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .lg\:placeholder-platinum::placeholder {
+    color: #BFC6CE;
+  }
+
+  .lg\:placeholder-bronze::-webkit-input-placeholder {
+    color: #D66942;
+  }
+
+  .lg\:placeholder-bronze::-moz-placeholder {
+    color: #D66942;
+  }
+
+  .lg\:placeholder-bronze:-ms-input-placeholder {
+    color: #D66942;
+  }
+
+  .lg\:placeholder-bronze::-ms-input-placeholder {
+    color: #D66942;
+  }
+
+  .lg\:placeholder-bronze::placeholder {
+    color: #D66942;
+  }
+
   .lg\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
     color: transparent;
   }
@@ -52319,6 +52921,46 @@ a:hover {
     color: #80818B;
   }
 
+  .lg\:focus\:placeholder-platinum:focus::-webkit-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .lg\:focus\:placeholder-platinum:focus::-moz-placeholder {
+    color: #BFC6CE;
+  }
+
+  .lg\:focus\:placeholder-platinum:focus:-ms-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .lg\:focus\:placeholder-platinum:focus::-ms-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .lg\:focus\:placeholder-platinum:focus::placeholder {
+    color: #BFC6CE;
+  }
+
+  .lg\:focus\:placeholder-bronze:focus::-webkit-input-placeholder {
+    color: #D66942;
+  }
+
+  .lg\:focus\:placeholder-bronze:focus::-moz-placeholder {
+    color: #D66942;
+  }
+
+  .lg\:focus\:placeholder-bronze:focus:-ms-input-placeholder {
+    color: #D66942;
+  }
+
+  .lg\:focus\:placeholder-bronze:focus::-ms-input-placeholder {
+    color: #D66942;
+  }
+
+  .lg\:focus\:placeholder-bronze:focus::placeholder {
+    color: #D66942;
+  }
+
   .lg\:pointer-events-none {
     pointer-events: none;
   }
@@ -52998,6 +53640,14 @@ a:hover {
     color: #80818B;
   }
 
+  .lg\:text-platinum {
+    color: #BFC6CE;
+  }
+
+  .lg\:text-bronze {
+    color: #D66942;
+  }
+
   .lg\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -53400,6 +54050,14 @@ a:hover {
 
   .lg\:hover\:text-ghost-light:hover {
     color: #80818B;
+  }
+
+  .lg\:hover\:text-platinum:hover {
+    color: #BFC6CE;
+  }
+
+  .lg\:hover\:text-bronze:hover {
+    color: #D66942;
   }
 
   .lg\:focus\:text-transparent:focus {
@@ -53806,8 +54464,16 @@ a:hover {
     color: #80818B;
   }
 
+  .lg\:focus\:text-platinum:focus {
+    color: #BFC6CE;
+  }
+
+  .lg\:focus\:text-bronze:focus {
+    color: #D66942;
+  }
+
   .lg\:text-14 {
-    font-size: 1rem;
+    font-size: 0.875rem;
   }
 
   .lg\:text-16 {
@@ -53818,12 +54484,28 @@ a:hover {
     font-size: 1.125rem;
   }
 
+  .lg\:text-21 {
+    font-size: 1.3125rem;
+  }
+
   .lg\:text-24 {
     font-size: 1.5rem;
   }
 
   .lg\:text-26 {
     font-size: 1.625rem;
+  }
+
+  .lg\:text-50 {
+    font-size: 3.125rem;
+  }
+
+  .lg\:text-60 {
+    font-size: 3.75rem;
+  }
+
+  .lg\:text-72 {
+    font-size: 4.5rem;
   }
 
   .lg\:text-xs {
@@ -56706,6 +57388,14 @@ a:hover {
   .lg\:duration-1000 {
     transition-duration: 1000ms;
   }
+
+  .lg\:order-0 {
+    order: 0;
+  }
+
+  .lg\:order-1 {
+    order: 1;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -57177,6 +57867,14 @@ a:hover {
     background-color: #80818B;
   }
 
+  .xl\:bg-platinum {
+    background-color: #BFC6CE;
+  }
+
+  .xl\:bg-bronze {
+    background-color: #D66942;
+  }
+
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
   }
@@ -57581,6 +58279,14 @@ a:hover {
     background-color: #80818B;
   }
 
+  .xl\:hover\:bg-platinum:hover {
+    background-color: #BFC6CE;
+  }
+
+  .xl\:hover\:bg-bronze:hover {
+    background-color: #D66942;
+  }
+
   .xl\:focus\:bg-transparent:focus {
     background-color: transparent;
   }
@@ -57983,6 +58689,14 @@ a:hover {
 
   .xl\:focus\:bg-ghost-light:focus {
     background-color: #80818B;
+  }
+
+  .xl\:focus\:bg-platinum:focus {
+    background-color: #BFC6CE;
+  }
+
+  .xl\:focus\:bg-bronze:focus {
+    background-color: #D66942;
   }
 
   .xl\:bg-bottom {
@@ -58469,6 +59183,14 @@ a:hover {
     border-color: #80818B;
   }
 
+  .xl\:border-platinum {
+    border-color: #BFC6CE;
+  }
+
+  .xl\:border-bronze {
+    border-color: #D66942;
+  }
+
   .xl\:hover\:border-transparent:hover {
     border-color: transparent;
   }
@@ -58873,6 +59595,14 @@ a:hover {
     border-color: #80818B;
   }
 
+  .xl\:hover\:border-platinum:hover {
+    border-color: #BFC6CE;
+  }
+
+  .xl\:hover\:border-bronze:hover {
+    border-color: #D66942;
+  }
+
   .xl\:focus\:border-transparent:focus {
     border-color: transparent;
   }
@@ -59275,6 +60005,14 @@ a:hover {
 
   .xl\:focus\:border-ghost-light:focus {
     border-color: #80818B;
+  }
+
+  .xl\:focus\:border-platinum:focus {
+    border-color: #BFC6CE;
+  }
+
+  .xl\:focus\:border-bronze:focus {
+    border-color: #D66942;
   }
 
   .xl\:rounded-none {
@@ -64283,6 +65021,46 @@ a:hover {
     color: #80818B;
   }
 
+  .xl\:placeholder-platinum::-webkit-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .xl\:placeholder-platinum::-moz-placeholder {
+    color: #BFC6CE;
+  }
+
+  .xl\:placeholder-platinum:-ms-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .xl\:placeholder-platinum::-ms-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .xl\:placeholder-platinum::placeholder {
+    color: #BFC6CE;
+  }
+
+  .xl\:placeholder-bronze::-webkit-input-placeholder {
+    color: #D66942;
+  }
+
+  .xl\:placeholder-bronze::-moz-placeholder {
+    color: #D66942;
+  }
+
+  .xl\:placeholder-bronze:-ms-input-placeholder {
+    color: #D66942;
+  }
+
+  .xl\:placeholder-bronze::-ms-input-placeholder {
+    color: #D66942;
+  }
+
+  .xl\:placeholder-bronze::placeholder {
+    color: #D66942;
+  }
+
   .xl\:focus\:placeholder-transparent:focus::-webkit-input-placeholder {
     color: transparent;
   }
@@ -66303,6 +67081,46 @@ a:hover {
     color: #80818B;
   }
 
+  .xl\:focus\:placeholder-platinum:focus::-webkit-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .xl\:focus\:placeholder-platinum:focus::-moz-placeholder {
+    color: #BFC6CE;
+  }
+
+  .xl\:focus\:placeholder-platinum:focus:-ms-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .xl\:focus\:placeholder-platinum:focus::-ms-input-placeholder {
+    color: #BFC6CE;
+  }
+
+  .xl\:focus\:placeholder-platinum:focus::placeholder {
+    color: #BFC6CE;
+  }
+
+  .xl\:focus\:placeholder-bronze:focus::-webkit-input-placeholder {
+    color: #D66942;
+  }
+
+  .xl\:focus\:placeholder-bronze:focus::-moz-placeholder {
+    color: #D66942;
+  }
+
+  .xl\:focus\:placeholder-bronze:focus:-ms-input-placeholder {
+    color: #D66942;
+  }
+
+  .xl\:focus\:placeholder-bronze:focus::-ms-input-placeholder {
+    color: #D66942;
+  }
+
+  .xl\:focus\:placeholder-bronze:focus::placeholder {
+    color: #D66942;
+  }
+
   .xl\:pointer-events-none {
     pointer-events: none;
   }
@@ -66982,6 +67800,14 @@ a:hover {
     color: #80818B;
   }
 
+  .xl\:text-platinum {
+    color: #BFC6CE;
+  }
+
+  .xl\:text-bronze {
+    color: #D66942;
+  }
+
   .xl\:hover\:text-transparent:hover {
     color: transparent;
   }
@@ -67384,6 +68210,14 @@ a:hover {
 
   .xl\:hover\:text-ghost-light:hover {
     color: #80818B;
+  }
+
+  .xl\:hover\:text-platinum:hover {
+    color: #BFC6CE;
+  }
+
+  .xl\:hover\:text-bronze:hover {
+    color: #D66942;
   }
 
   .xl\:focus\:text-transparent:focus {
@@ -67790,8 +68624,16 @@ a:hover {
     color: #80818B;
   }
 
+  .xl\:focus\:text-platinum:focus {
+    color: #BFC6CE;
+  }
+
+  .xl\:focus\:text-bronze:focus {
+    color: #D66942;
+  }
+
   .xl\:text-14 {
-    font-size: 1rem;
+    font-size: 0.875rem;
   }
 
   .xl\:text-16 {
@@ -67802,12 +68644,28 @@ a:hover {
     font-size: 1.125rem;
   }
 
+  .xl\:text-21 {
+    font-size: 1.3125rem;
+  }
+
   .xl\:text-24 {
     font-size: 1.5rem;
   }
 
   .xl\:text-26 {
     font-size: 1.625rem;
+  }
+
+  .xl\:text-50 {
+    font-size: 3.125rem;
+  }
+
+  .xl\:text-60 {
+    font-size: 3.75rem;
+  }
+
+  .xl\:text-72 {
+    font-size: 4.5rem;
   }
 
   .xl\:text-xs {
@@ -70689,5 +71547,13 @@ a:hover {
 
   .xl\:duration-1000 {
     transition-duration: 1000ms;
+  }
+
+  .xl\:order-0 {
+    order: 0;
+  }
+
+  .xl\:order-1 {
+    order: 1;
   }
 }

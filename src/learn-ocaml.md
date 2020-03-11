@@ -1,5 +1,5 @@
 ---
-layout: main-layout.liquid
+layout: md-layout.liquid
 pageTitle: OCFS - Learn OCaml
 ---
 
