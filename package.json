@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "css:watch": "postcss -w styles/main.css -o pages/main.css",
-    "css:build": "NODE_ENV=production postcss styles/main.css -o pages/main.css"
+    "dev": "eleventy --serve",
+    "build": "eleventy && npm run css:build",
+    "css:watch": "postcss -w src/styles/main.css -o src/css/main.css",
+    "css:build": "NODE_ENV=production postcss src/styles/main.css -o _site/css/main.css"
   },
   "repository": {
     "type": "git",
@@ -18,7 +20,10 @@
     "url": "https://github.com/bettistein/ocaml-sf-website/issues"
   },
   "homepage": "https://github.com/bettistein/ocaml-sf-website#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "prettier": "^1.19.1"
+  },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.0.6",
     "autoprefixer": "^9.7.4",
