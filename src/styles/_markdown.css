@@ -1,3 +1,4 @@
+/* purgecss start ignore */
 .md-h1,
 .md-h2,
 .md-h3,
@@ -76,3 +77,4 @@
 .md .silent {
   @apply text-14 text-stone;
 }
+/* purgecss end ignore */
