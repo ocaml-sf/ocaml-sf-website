@@ -2,4 +2,8 @@
 node_modules
 .DS_Store
 
+# This file is only used for development
+# and should be generated via npm run css:watch
+src/css/main.css
+
 _site/
