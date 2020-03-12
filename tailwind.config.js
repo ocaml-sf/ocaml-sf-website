@@ -26,11 +26,13 @@ module.exports = {
       minWidth: {
         mobile: "20rem"
       },
-
       minHeight: {
         "3/4": "75%",
         "24": "24rem"
-      }
+      },
+      height: {
+        "half": "50vh",
+      },
     },
 
     /* Most of the time we customize the font-sizes,

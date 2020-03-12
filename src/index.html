@@ -23,14 +23,14 @@ pageTitle: OCFS - Home
     <img
       src="./assets/header_img@2x.jpg"
       style="max-width: 87.5rem"
-      class="w-full"
+      class="w-full h-half object-cover object-left md:object-center md:h-full"
       alt="people programming"
     />
   </div>
 
   <!-------------------------------------------------------------------------------->
   <!--Section 1: Introduction-->
-  <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 row-gap-8">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 row-gap-8">
     <div
       style="max-width: 33rem;"
       class="text-24 font-serif order-1 md:order-0 text-night-light font-normal leading-snug self-center"
@@ -49,7 +49,7 @@ pageTitle: OCFS - Home
     </div>
     <div class="order-0 md:order-1 flex justify-center">
       <img
-        class="w-2/3 md:w-full block md:w-auto max-w-md"
+        class="w-2/3 h-full sm:h-full block sm:w-full max-w-md"
         src="/assets/illu_ocaml@2x.jpg"
         alt="illustration"
       />
@@ -67,24 +67,18 @@ pageTitle: OCFS - Home
       </h1>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-20">
-        {% card "/assets/ic_internships.svg", "Internships"  %}
-        We fund internships to advance the OCaml ecosystem and also grow
-        new OCaml contributors. In 2018-2019 we funded Outreachy
-        internships to improve our testing of the OCaml compiler and
-        language tools, a research internship on OCaml type inference, and
-        development internships on teaching platforms.
-        {% endcard %}
-
-        {% card "/assets/ic_learn.svg", "Learn-OCaml Platform"  %}
-        We support the development of the Learn-OCaml exercise platform
-        and try to facilitate its adoption by teachers. We provided
-        financial support to some early-adopters of the Learn-OCaml
-        platform (McGill university). We are funding teachers to grow a
-        shared corpus of high-quality exercises. We also provided
-        financial support to run new editions of the OCaml MOOC, open to
-        everyone.
-        {% endcard %}
-
+        {% card "/assets/ic_internships.svg", "Internships" %} We fund
+        internships to advance the OCaml ecosystem and also grow new OCaml
+        contributors. In 2018-2019 we funded Outreachy internships to improve
+        our testing of the OCaml compiler and language tools, a research
+        internship on OCaml type inference, and development internships on
+        teaching platforms. {% endcard %} {% card "/assets/ic_learn.svg",
+        "Learn-OCaml Platform" %} We support the development of the Learn-OCaml
+        exercise platform and try to facilitate its adoption by teachers. We
+        provided financial support to some early-adopters of the Learn-OCaml
+        platform (McGill university). We are funding teachers to grow a shared
+        corpus of high-quality exercises. We also provided financial support to
+        run new editions of the OCaml MOOC, open to everyone. {% endcard %}
       </div>
       <div class="flex justify-center mt-2 mt-12 mr-4">
         <a href="/actions">
@@ -118,8 +112,14 @@ pageTitle: OCFS - Home
           <a href="/becoming-a-sponsor">becoming a sponsor</a> too!
         </p>
       </div>
-      <img class="absolute right-0 -mr-32 mt-2 sm:-mt-24" src="/assets/pattern1.svg" />
-      <img class="absolute right-0 -mr-32 mt-2 sm:-mt-20" src="/assets/pattern2.svg" />
+      <img
+        class="absolute right-0 -mr-32 mt-2 sm:-mt-24"
+        src="/assets/pattern1.svg"
+      />
+      <img
+        class="absolute right-0 -mr-32 mt-2 sm:-mt-20"
+        src="/assets/pattern2.svg"
+      />
 
       <div class="relative z-10 mt-20 grid grid-rows-3 row-gap-6">
         <div class="bg-white h-32 border-l-4 border-platinum">
