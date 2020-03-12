@@ -19,8 +19,13 @@ pageTitle: OCFS - Home
     </div>
   </div>
 
-  <div class="-mx-12 lg:-mx-56 pt-6 pb-24">
-    <img src="./assets/header_img@2x.jpg" alt="people programming" />
+  <div class="-mx-12 lg:-mx-56 pt-6 pb-24 flex justify-center">
+    <img
+      src="./assets/header_img@2x.jpg"
+      style="max-width: 87.5rem"
+      class="w-full"
+      alt="people programming"
+    />
   </div>
 
   <!-------------------------------------------------------------------------------->
@@ -37,7 +42,9 @@ pageTitle: OCFS - Home
         class="flex text-16 text-night border-t border-night-light pl-2 pt-3 mt-6 mr-20"
       >
         <img src="/assets/zap.svg" class="mr-4" />
-        <p class="w-48">Learn more about our supporter program</p>
+        <a href="/supporter-program" class="w-48"
+          >Learn more about our supporter program</a
+        >
       </div>
     </div>
     <div class="order-0 md:order-1 flex justify-center">
@@ -52,14 +59,14 @@ pageTitle: OCFS - Home
   <!-------------------------------------------------------------------------------->
   <!--SECTION 3: Recent Actions-->
   <div class="flex justify-center">
-    <section class="max-w-2xl w-full">
+    <section class="max-w-3xl w-full">
       <h1
-        class="text-center sm:text-left mb-8 mt-24 text-60 font-serif leading-tight"
+        class="text-center sm:text-left mb-20 mt-40 text-50 sm:text-72 font-serif leading-tight"
       >
         Some of our recent actions
       </h1>
 
-      <div class="grid grid-cols-1 md:grid-cols-2">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-20">
         <div class="flex justify-center">
           <div
             class="mb-12 text-center flex flex-col max-w-xs md:text-left md:block lg:mr-6 lg:text-left lg:max-w-full"
@@ -116,66 +123,108 @@ pageTitle: OCFS - Home
 
 <div class="-mx-4 mt-16 w-full flex flex-col">
   <div class="w-full" style="background-image: url('/assets/wave.svg')" />
-  <div class=" w-full bg-ghost flex flex-col items-center mt-16 pb-56">
-    <div style="max-width: 70rem" class="w-full bg-ghost mt-16 pb-8">
-      <div class="max-w-6xl flex flex-col sm:flex-row justify-center">
+  <div class="w-full bg-ghost flex flex-col items-center mt-16 pb-56">
+    <div style="max-width: 70rem" class="relative w-full bg-ghost mt-16 pb-8">
+      <div class="px-4 max-w-6xl flex flex-col md:flex-row justify-center">
         <div
           style="max-width: 24.3rem"
-          class="font-serif text-72 leading-tight"
+          class="font-serif text-center sm:text-left text-50 sm:text-72 leading-tight"
         >
           Our current sponsors
         </div>
 
-        <p style="max-width: 25rem" class="text-16 pt-8 pl-6 text-night-light">
+        <p
+          style="max-width: 25rem"
+          class="text-16 pt-8 md:pl-10 text-night-light"
+        >
           If your company would like to contribute in supporting and advancing
           the OCaml programming language and its community, please consider
-          becoming a sponsor too!
+          <a href="/becoming-a-sponsor">becoming a sponsor</a> too!
         </p>
       </div>
+      <img class="absolute right-0 -mr-32 mt-2 sm:-mt-24" src="/assets/pattern1.svg" />
+      <img class="absolute right-0 -mr-32 mt-2 sm:-mt-20" src="/assets/pattern2.svg" />
 
-      <div class="mt-20 grid grid-rows-3 row-gap-6">
+      <div class="relative z-10 mt-20 grid grid-rows-3 row-gap-6">
         <div class="bg-white h-32 border-l-4 border-platinum">
-          <div class="h-full relative">
+          <div class="h-full relative flex items-center">
             <div
               style="top: 50% "
               class="text-14 absolute transform -translate-x-3 uppercase -translate-y-1/2 text-center -rotate-90"
             >
               Platinum
             </div>
-            <div class="ml-auto w-2/3">
-              <span> sponsor 1</span>
-              <span> sponsor 2</span>
-              <span> sponsor 3</span>
+            <div
+              class="pl-16 pr-12 grid grid-cols-2 md:grid-cols-4 gap-4 items-center"
+            >
+              <a href="https://janestreet.com" rel="noopener" target="_blank">
+                <img
+                  class="w-auto h-8 sm:h-12"
+                  src="/assets/sponsors/logo-janestreet.png"
+                />
+              </a>
+              <a href="https://ahrefs.com" rel="noopener" target="_blank">
+                <img
+                  class="w-auto h-8 sm:h-12"
+                  src="/assets/sponsors/logo-ahrefs.png"
+                />
+              </a>
+              <a href="https://ocamlpro.com" rel="noopener" target="_blank">
+                <img
+                  class="w-auto h-8 sm:h-12"
+                  src="/assets/sponsors/logo-ocamlpro.png"
+                />
+              </a>
+              <a href="https://tezos.com" rel="noopener" target="_blank">
+                <img
+                  class="w-auto h-8 sm:h-12"
+                  src="/assets/sponsors/logo-tezos.png"
+                />
+              </a>
             </div>
           </div>
         </div>
         <div class="bg-white h-32 border-l-4 border-stone">
-          <div class="h-full relative">
+          <div class="h-full relative flex items-center">
             <div
               style="top: 50% "
               class="text-14 absolute transform -translate-y-1/2 uppercase text-center -rotate-90"
             >
               Silver
             </div>
-            <div class="ml-auto w-2/3">
-              <span> sponsor 1</span>
-              <span> sponsor 2</span>
-              <span> sponsor 3</span>
+            <div
+              class="pl-16 pr-12 grid grid-cols-2 md:grid-cols-4 gap-4 items-center"
+            >
+              <a href="https://lexifi.com" rel="noopener" target="_blank">
+                <img
+                  class="w-auto h-8 sm:h-12"
+                  src="/assets/sponsors/logo-lexifi.svg"
+                />
+              </a>
+              <a href="https://bloomberg.com" rel="noopener" target="_blank">
+                <img
+                  class="w-auto h-8 sm:h-12"
+                  src="/assets/sponsors/logo-bloomberg.png"
+                />
+              </a>
             </div>
           </div>
         </div>
         <div class="bg-white h-32 border-l-4 border-bronze">
-          <div class="h-full relative">
+          <div class="h-full relative flex items-center">
             <div
               style="top: 50% "
               class="text-14 absolute transform -translate-y-1/2 uppercase text-center -rotate-90"
             >
               Bronze
             </div>
-            <div class="ml-auto w-2/3">
-              <span> sponsor 1</span>
-              <span> sponsor 2</span>
-              <span> sponsor 3</span>
+            <div class="pl-16 pr-12 flex justify-between">
+              <a href="https://simcorp.com" rel="noopener" target="_blank">
+                <img
+                  class="w-auto h-8 sm:h-12"
+                  src="/assets/sponsors/logo-simcorp.png"
+                />
+              </a>
             </div>
           </div>
         </div>

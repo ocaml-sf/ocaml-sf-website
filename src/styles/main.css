@@ -14,10 +14,12 @@ body {
 }
 
 /* Styling Links */
-a {
-  @apply font-serif text-night-light;
-}
+/*a {*/
+  /*@apply font-serif text-night-light;*/
+/*}*/
 
 a:hover {
   @apply underline;
 }
+
+
