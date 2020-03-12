@@ -3,7 +3,6 @@ const mdAttrs = require("markdown-it-attrs");
 const mdModifyToken = require("markdown-it-modify-token");
 
 function card(content, imgSrc, title) {
-  console.log(content);
   return `
 <div class="flex justify-center">
   <div
@@ -56,18 +55,8 @@ module.exports = function(eleventyConfig) {
           appendClassname(token, `md-img`);
           break;
         case "link_open":
-        console.log(token);
-          console.log(token);
           appendClassname(token, "md-a");
           break;
-        //case "image": // set all images to 200px width except for foo.gif
-        //if (token.attrObj.src !== "foo.gif") {
-        //token.attrObj.width = "200px";
-        //}
-        //break;
-        //case "link_open":
-        //token.attrObj.target = "_blank"; // set all links to open in new window
-        //break;
       }
     }
   };
