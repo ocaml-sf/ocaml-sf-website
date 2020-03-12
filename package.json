@@ -22,6 +22,8 @@
   "homepage": "https://github.com/bettistein/ocaml-sf-website#readme",
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
+    "markdown-it-attrs": "^3.0.2",
+    "markdown-it-modify-token": "^1.0.2",
     "prettier": "^1.19.1"
   },
   "devDependencies": {

@@ -1,28 +1,35 @@
-.md h1,
-.md h2,
-.md h3,
-.md h4 {
+.md-h1,
+.md-h2,
+.md-h3,
+.md-h4 {
   @apply leading-tight font-serif text-night;
 }
 
-.md h1 {
+.md-h1 {
   @apply text-5xl mb-4;
 }
 
-.md h2 {
-  @apply text-4xl my-4;
+.md-h2 {
+  @apply text-4xl my-4 mt-20;
 }
 
-.md h3 {
+.md-h3 {
   @apply text-2xl font-medium my-4;
 }
 
-.md h4 {
+.md-h4 {
   @apply text-xl font-medium my-4;
 }
 
-.md p {
-  @apply text-night-light font-sans;
+.md strong {
+  @apply font-extrabold;
+}
+
+.md-p {
+}
+
+.md hr {
+  @apply my-16
 }
 
 .md small {
@@ -45,6 +52,27 @@
   @apply ml-4;
 }
 
-.md p + p {
+.md-p + .md-p {
   @apply mt-3;
+}
+
+.md-img {
+  @apply my-16;
+}
+
+.md-a {
+  @apply border-b-2 border-bronze ;
+}
+
+.md-a:hover {
+  @apply no-underline border-camel text-bronze;
+}
+
+/* Markdown specific components */
+.md .intro {
+  @apply text-26 py-8 font-serif;
+}
+
+.md .silent {
+  @apply text-14 text-stone;
 }

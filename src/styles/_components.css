@@ -1,7 +1,11 @@
 /* purgecss start ignore */
 
 .btn-main {
-  @apply w-32 p-3 m-3 border text-center border-camel rounded-md font-serif text-camel;
+  @apply transition-colors duration-300 w-32 p-3 border text-center border-camel rounded-md font-serif text-camel;
+}
+
+.btn-main:hover {
+  @apply bg-camel text-white;
 }
 
 /* Defining Links in Top Navigation */
