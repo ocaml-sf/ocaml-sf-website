@@ -26,7 +26,7 @@ Executive Committee which currently consists of
 
 We regularly discuss our actions, internally, with an Advisory Board
 consiting of representants of each of our sponsors -- see how to
-[become a sponsor](becoming-a-sponsor.html).
+[become a sponsor](becoming-a-sponsor).
 
 Magali Fitzgibbon and Norma Caillot, employees of the INRIA
 Foundation, provide the administrative and legal support that make our
