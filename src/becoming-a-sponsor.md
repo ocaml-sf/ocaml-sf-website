@@ -9,11 +9,11 @@ Supporting the OCaml Software Foundation contributes to supporting and
 strengthening the OCaml community. If your company or institution
 builds on top of the OCaml programming language, ecosystem and
 community -- and if you are interested in supporting our
-[actions](actions.html) -- please consider becoming a sponsor of the
+[actions]({{ '/actions' | url }}) -- please consider becoming a sponsor of the
 OCaml Software Foundation.
 
 To become a sponsor, you should choose a sonsporship level below, and
-contact the Executive Board ([about us](about-us.html)), for example
+contact the Executive Board ([about us]({{ '/about-us' | url }})), for example
 by email at <a class="email"
 href="mailto:ocaml.software.foundation@gmail.com">ocaml.software.foundation@gmail.com</a>.
 
@@ -40,7 +40,7 @@ Anonymous sponsorship is possible.
 ## Advisory Board
 
 The Advisory Board of the foundation is populated by representatives
-of our [sponsors](index.html#sponsors). It is a forum to share information
+of our [sponsors]({{ '/index.html#sponsors' | url }}). It is a forum to share information
 among industrial and academic users of OCaml and active members of the
 community, to identify and discuss priorities and pain points in the
 OCaml community that the foundation can help with.

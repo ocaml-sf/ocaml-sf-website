@@ -24,7 +24,7 @@ non-OCaml programmers.
 We ran sessions of the OCaml MOOC in 2018-2019 (3k registrants, 200
 certificates). We employed a TA to help students on the MOOC forums.
 
-## The [Learn-OCaml](learn-ocaml.html) Online Exercise Platform
+## The [Learn-OCaml]({{ '/learn-ocaml' | url }}) Online Exercise Platform
 
 The Learn-OCaml exercise platform is open-source and easy for anyone to deploy
 locally to support their OCaml courses.
@@ -39,7 +39,7 @@ people to deploy new instances for their courses without having to
 host one locally -- which is fairly easy to do {.silent}
 
 <div class="mt-8">
-<a href="/" class="btn-main">
+<a href="https://github.com/ocaml-sf/learn-ocaml" class="btn-main">
 <button>Visit Platform</button>
 </a>
 </div>
@@ -54,7 +54,7 @@ and made available 40 exercises from the MOOC.
 
 <div class="my-4 -mx-4 sm:-mx-56 flex justify-center">
 
-  ![OCamler learning](/assets/reconf19-1.jpg){.object-cover}
+  ![OCamler learning]({{ '/assets/reconf19-1.jpg' | url }}){.object-cover}
 
 </div>
 
@@ -68,7 +68,7 @@ teaching efforts at the OCaml Workshop on the same year.
 
 <div class="-mx-4 sm:mx-0">
 
-![OCamlers coding](/assets/reconf19-2.jpg)
+![OCamlers coding]({{ '/assets/reconf19-2.jpg' | url }})
 
 </div>
 
@@ -78,7 +78,7 @@ We provided some financial support for new OCaml courses in 2018, at
 the Paris-Diderot university (France) and McGill University
 (Canada). You may be interested in the McGill [ICFP'2019 experience
 report](https://www.cs.mcgill.ca/~bpientka/papers/learn-ocaml-icfp19)
-on their new course using the [Learn-OCaml](learn-ocaml.html) platform.
+on their new course using the [Learn-OCaml]({{ '/learn-ocaml' | url }}) platform.
 
 We are funding an initiative in the NOVA University of Lisbon and
 the University of Beira Interior (Portugal) to research and teach

@@ -2,24 +2,6 @@ const markdownIt = require("markdown-it");
 const mdAttrs = require("markdown-it-attrs");
 const mdModifyToken = require("markdown-it-modify-token");
 
-function card(content, imgSrc, title) {
-  return `
-<div class="flex justify-center">
-  <div
-    class="text-center flex flex-col max-w-xs md:text-left md:block lg:mr-6 lg:text-left lg:max-w-full"
-  >
-    <img
-      class="h-16 mb-6"
-      src="${imgSrc}"
-      alt="Symbol image for ${title}"
-    />
-    <div class="font-serif mb-4 text-24">${title}</div>
-    <div class="text-14 text-ghost-light"> ${content} </div>
-  </div>
-</div>
-  `;
-}
-
 const appendClassname = (token, cn) => {
   const classname = token.attrObj.class;
   if(!classname) {
@@ -36,7 +18,24 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.setUseGitIgnore(false);
 
-  eleventyConfig.addPairedShortcode("card", card);
+  eleventyConfig.addPairedShortcode("card", function card(content, imgSrc, title) {
+      imgUrl = eleventyConfig.getFilter("url")(imgSrc);
+      return `
+      <div class="flex justify-center">
+        <div
+          class="text-center flex flex-col max-w-xs md:text-left md:block lg:mr-6 lg:text-left lg:max-w-full"
+        >
+          <img
+            class="h-16 mb-6"
+            src="${imgUrl}"
+            alt="Symbol image for ${title}"
+          />
+          <div class="font-serif mb-4 text-24">${title}</div>
+          <div class="text-14 text-ghost-light"> ${content} </div>
+        </div>
+      </div>
+      `;
+  });
 
   const options = {
     html: true,
