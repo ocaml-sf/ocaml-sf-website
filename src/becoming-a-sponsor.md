@@ -13,9 +13,9 @@ community -- and if you are interested in supporting our
 OCaml Software Foundation.
 
 To become a sponsor, you should choose a sonsporship level below, and
-contact a member of the Executive Board ([about us](about-us.html)),
-for example by email at <a class="email"
-href="mailto:gabriel.scherer@gmail.com">gabriel.scherer@gmail.com</a>.
+contact the Executive Board ([about us](about-us.html)), for example
+by email at <a class="email"
+href="mailto:ocaml.software.foundation@gmail.com">ocaml.software.foundation@gmail.com</a>.
 
 The OCaml Software Foundation is a non-profit foundation of public
 interest (legally it is a sub-foundation "fondation abritée" of the
