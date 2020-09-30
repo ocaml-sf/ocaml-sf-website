@@ -1,6 +1,6 @@
 ---
 layout: md-layout.liquid
-pageTitle: OCFS - About us
+pageTitle: OCSF - About us
 ---
 
 # About us

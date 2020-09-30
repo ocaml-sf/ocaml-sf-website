@@ -1,6 +1,6 @@
 ---
 layout: md-layout.liquid
-pageTitle: OCFS - Imprint
+pageTitle: OCSF - Imprint
 ---
 
 # Imprint

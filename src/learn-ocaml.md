@@ -1,6 +1,6 @@
 ---
 layout: md-layout.liquid
-pageTitle: OCFS - Learn OCaml
+pageTitle: OCSF - Learn OCaml
 ---
 
 # The Learn-OCaml Technical Platform

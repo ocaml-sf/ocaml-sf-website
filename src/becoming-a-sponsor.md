@@ -1,6 +1,6 @@
 ---
 layout: md-layout.liquid
-pageTitle: OCFS - Becoming a Sponsor 
+pageTitle: OCSF - Becoming a Sponsor 
 ---
 
 # Becoming a Sponsor
