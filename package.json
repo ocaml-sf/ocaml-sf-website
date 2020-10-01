@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "eleventy --serve",
-    "build": "eleventy && npm run css:build",
+    "site:build": "eleventy",
+    "css:build": "NODE_ENV=production postcss src/styles/main.css -o _site/css/main.css",
+
     "css:watch": "postcss -w src/styles/main.css -o src/css/main.css",
-    "css:build": "NODE_ENV=production postcss src/styles/main.css -o _site/css/main.css"
+    "dev": "eleventy --serve"
   },
   "repository": {
     "type": "git",

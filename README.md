@@ -9,6 +9,20 @@ This project uses [eleventy](https://www.11ty.dev/) as a static site generator.
 npm install
 ```
 
+## Build
+
+This will generate the website in the `_site` directory.
+```
+npm run site:build
+npm run css:build
+```
+
+To deploy in non-base directories of a website, use the
+`--pathprefix="..."` option during the `site:build` step:
+```
+npm run site:build --pathprefix=tmp/
+```
+
 ## Development
 
 ```
@@ -24,9 +38,3 @@ open localhost:8080
 
 Whenever you are making a change in your CSS / templates, eleventy will
 automatically reload your browser.
-
-## Deployment
-
-For a production build just run `npm run build`. After a production build, all
-generated html / asset files can be found in the `_site` directory.
-
