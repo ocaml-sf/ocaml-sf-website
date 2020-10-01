@@ -37,6 +37,24 @@ module.exports = function(eleventyConfig) {
       `;
   });
 
+  eleventyConfig.addPairedShortcode("sponsor", function card(content, url) {
+      return `
+      <a href="${url}" rel="noopener" target="_blank">
+        ${content}
+      </a>
+      `;
+  });
+
+  eleventyConfig.addShortcode("sponsor-img", function card(imgSrc) {
+      imgUrl = eleventyConfig.getFilter("url")("/assets/sponsors/" + imgSrc);
+      return `
+      <img
+        class="w-auto h-8 sm:h-12"
+        src="${imgUrl}"
+      />
+      `;
+  });
+
   const options = {
     html: true,
     breaks: false,

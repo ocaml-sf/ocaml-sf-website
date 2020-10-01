@@ -139,30 +139,21 @@ pageTitle: OCSF - Home
             <div
               class="pl-16 pr-12 grid grid-cols-2 md:grid-cols-4 gap-4 items-center"
             >
-              <a href="https://janestreet.com" rel="noopener" target="_blank">
-                <img
-                  class="w-auto h-8 sm:h-12"
-                  src="{{ '/assets/sponsors/logo-janestreet.png' | url }}"
-                />
-              </a>
-              <a href="https://ahrefs.com" rel="noopener" target="_blank">
-                <img
-                  class="w-auto h-8 sm:h-12"
-                  src="{{ '/assets/sponsors/logo-ahrefs.png' | url }}"
-                />
-              </a>
-              <a href="https://ocamlpro.com" rel="noopener" target="_blank">
-                <img
-                  class="w-auto h-8 sm:h-12"
-                  src="{{ '/assets/sponsors/logo-ocamlpro.png' | url }}"
-                />
-              </a>
-              <a href="https://tezos.com" rel="noopener" target="_blank">
-                <img
-                  class="w-auto h-8 sm:h-12"
-                  src="{{ '/assets/sponsors/logo-tezos.png' | url }}"
-                />
-              </a>
+              {% sponsor "https://janestreet.com" %}
+                {% sponsor-img "logo-janestreet.png" %}
+              {% endsponsor %}
+
+              {% sponsor "https://ahrefs.com" %}
+                {% sponsor-img "logo-ahrefs.png" %}
+              {% endsponsor %}
+
+              {% sponsor "https://ocamlpro.com" %}
+                {% sponsor-img "logo-ocamlpro.png" %}
+              {% endsponsor %}
+
+              {% sponsor "https://tezos.com" %}
+                {% sponsor-img "logo-tezos.png" %}
+              {% endsponsor %}
             </div>
           </div>
         </div>
@@ -177,18 +168,13 @@ pageTitle: OCSF - Home
             <div
               class="pl-16 pr-12 grid grid-cols-2 md:grid-cols-4 gap-4 items-center"
             >
-              <a href="https://lexifi.com" rel="noopener" target="_blank">
-                <img
-                  class="w-auto h-8 sm:h-12"
-                  src="{{ '/assets/sponsors/logo-lexifi.svg' | url }}"
-                />
-              </a>
-              <a href="https://bloomberg.com" rel="noopener" target="_blank">
-                <img
-                  class="w-auto h-8 sm:h-12"
-                  src="{{ '/assets/sponsors/logo-bloomberg.png' | url }}"
-                />
-              </a>
+              {% sponsor "https://lexifi.com" %}
+                {% sponsor-img "logo-lexifi.svg" %}
+              {% endsponsor %}
+
+              {% sponsor "https://bloomberg.com" %}
+                {% sponsor-img "logo-bloomberg.png" %}
+              {% endsponsor %}
             </div>
           </div>
         </div>
@@ -203,21 +189,17 @@ pageTitle: OCSF - Home
             <div
               class="pl-16 pr-12 grid grid-cols-2 md:grid-cols-4 gap-4 items-center"
             >
-              <a href="https://simcorp.com" rel="noopener" target="_blank">
-                <img
-                  class="w-auto h-8 sm:h-12"
-                  src="{{ '/assets/sponsors/logo-simcorp.png' | url }}"
-                />
-              </a>
-              <a href="https://www.mitsubishielectric-rce.eu/" rel="noopener" target="_blank">
+              {% sponsor "https://simcorp.com" %}
+                {% sponsor-img "logo-simcorp.png" %}
+              {% endsponsor %}
+
+              {% sponsor "https://www.mitsubishielectric-rce.eu/" %}
                 Mitsubishi Electric R&D Centre Europe (MERCE)
-              </a>
-              <a href="https://tarides.com/" rel="noopener" target="_blank">
-                <img
-                  class="w-auto h-8 sm:h-12"
-                  src="{{ '/assets/sponsors/logo-tarides.png' | url }}"
-                />
-              </a>
+              {% endsponsor %}
+
+              {% sponsor "https://tarides.com" %}
+                {% sponsor-img "logo-tarides.png" %}
+              {% endsponsor %}
             </div>
           </div>
         </div>
