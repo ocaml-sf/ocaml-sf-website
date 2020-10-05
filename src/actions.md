@@ -89,21 +89,30 @@ technical developments to the Learn-OCaml platform.
 
 <div class="text-60 font-serif mb-16"> General OCaml actions </div>
 
-<div class="grid grid-cols-1 md:grid-cols-2 row-gap-12 gap-5">
+<div class="card-grid grid grid-cols-2 md:grid-cols-2 row-gap-12 gap-5">
 
-  {% card "/assets/ic_learn.svg", "Community Events"  %}
+  {% comment %}
 
-  We sponsor video-capture for the Paris OCaml meetup. (If you would
-  like to run a regular meetup in another city, feel free to get in
-  touch!).
-  
-  We sponsor the [SWERC](https://swerc.eu/2019/about/) programming
-  contest for 2019-2020, and in return the contest added OCaml to the
-  list of available languages.
+     We use the "card-grid" class below which has the effect of hiding
+     any paragraph that is a direct children of the container. This is
+     necessary because the shortcode+markdown combination appears to
+     create empty paragraph around the "cards" which consume grid
+     slots.
 
-  We are sponsoring a development sprint for the
-  [Owl](https://github.com/owlbarn) project for scientific computing
-  in OCaml.
+  {% endcomment %}
+
+  {% card "/assets/ic_learn.svg", "Community Events" %}
+    We sponsor video-capture for the Paris OCaml meetup. (If you would
+    like to run a regular meetup in another city, feel free to get in
+    touch!).
+
+    We sponsor the [SWERC](https://swerc.eu/2019/about/) programming
+    contest for 2019-2020, and in return the contest added OCaml to the
+    list of available languages.
+
+    We are sponsoring a development sprint for the
+    [Owl](https://github.com/owlbarn) project for scientific computing
+    in OCaml.
   {% endcard %}
 
   {% card "/assets/ic_camel_blue.svg", "OCaml Language Design & Development"  %}
@@ -132,7 +141,7 @@ technical developments to the Learn-OCaml platform.
     starting.
 
   {% endcard %}
-  
+
   {% card "/assets/ic_camel_blue.svg", "Supporting the OCaml Software Ecosystem"  %}
 
     During the ongoing release process for OCaml 4.10, we are funding

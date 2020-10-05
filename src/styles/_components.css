@@ -18,4 +18,9 @@
   @apply text-26 font-serif;
 }
 
+/* remove spurious empty paragraphs added by the template+Markdown combination */
+.card-grid > p {
+  display: none !important;
+}
+
 /* purgecss end ignore */
