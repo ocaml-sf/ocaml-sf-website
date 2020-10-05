@@ -6,7 +6,6 @@
   "scripts": {
     "site:build": "eleventy",
     "css:build": "NODE_ENV=production postcss src/styles/main.css -o _site/css/main.css",
-
     "css:watch": "postcss -w src/styles/main.css -o src/css/main.css",
     "dev": "eleventy --serve"
   },

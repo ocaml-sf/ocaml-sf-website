@@ -16,11 +16,11 @@ Executive Committee which currently consists of
   <a class="text-34" href="https://xavierleroy.org/">Xavier Leroy</a>
     <span class="font-serif">(advisor)</span> <br/>
 
-  <a class="text-34" href="http://yann.regis-gianas.org/">Yann Régis-Gianas</a>
+  <a class="text-34" href="https://www.lri.fr/~kn/">Kim Nguyễn</a>
     <span class="font-serif">(representative of the teaching community)</span> <br/>
 
   <a class="text-34" href="http://gasche.info/">Gabriel Scherer</a>
-    <span class="font-serif">(president)</span> <br/>
+    <span class="font-serif">(director)</span> <br/>
 
 </div>
 
@@ -35,14 +35,15 @@ actions possible.
 
 ## Acknowledgments
 
-The OCaml Foundation logo was designed by [Bettina
-Steinbrecher](https://bettystein.com).
+Michel Mauny created and launched the OCaml Software Foundation in
+2017, he served as director until December 2018.
+Yann Régis-Gianas served as teacher representative until December 2019.
 
-Donald Abrams helped with the early organization of the Foundation's
-communication.
+The OCaml Foundation logo and website were designed by [Bettina
+Steinbrecher](https://bettystein.com).
 
 ## On the legal side
 
-Legally, the OCaml Software Foundation (OCSF) is a sub-foundation of
+The OCaml Software Foundation (OCSF) is a sub-foundation of
 the [INRIA Foundation](https://www.inria.fr/). It is a charity/non-profit -- read our
 [statutes](/assets/pdfs/RI-OCaml.pdf) for more details.
