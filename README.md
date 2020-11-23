@@ -38,3 +38,19 @@ open localhost:8080
 
 Whenever you are making a change in your CSS / templates, eleventy will
 automatically reload your browser.
+
+## Deployment
+
+The `make deploy` target builds the website and copies it to another
+"build" git repository. You should configure that other "build"
+directory to point to
+
+  https://github.com/ocaml-sf/ocaml-sf.github.io
+
+and push from there. (`make deploy` shows command-line to do it.)
+
+## Static files
+
+Everything in static/ gets included exactly as-is in the deploy
+directory. In particular, you can add files to static/docs, and they
+will show up at $WEBSITE/docs/... online.
