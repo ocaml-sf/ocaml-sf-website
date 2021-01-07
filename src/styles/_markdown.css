@@ -69,6 +69,13 @@
   @apply no-underline border-camel text-bronze;
 }
 
+.md blockquote {
+  padding:0 1em;
+  /* colors reused from the Github style */
+  color:#6a737d;
+  border-left:.25em solid #dfe2e5
+}
+
 /* Markdown specific components */
 .md .intro {
   @apply text-26 py-8 font-serif;
