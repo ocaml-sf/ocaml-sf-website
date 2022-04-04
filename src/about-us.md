@@ -10,6 +10,9 @@ Executive Committee which currently consists of
 
 <div class="my-16">
 
+  <a class="text-34" href="https://nojb.github.io/">Nicolás Ojeda Bär</a>
+    <span class="font-serif">(sponsor representative)</span> <br/>
+
   <a class="text-34" href="http://pauillac.inria.fr/~doligez/">Damien Doligez</a>
     <span class="font-serif">(advisor)</span> <br/>
 
@@ -28,7 +31,7 @@ We regularly discuss our actions, internally, with an Advisory Board
 consiting of representants of each of our sponsors -- see how to
 [become a sponsor](/becoming-a-sponsor).
 
-Magali Fitzgibbon and Norma Caillot, employees of the INRIA
+Blandine Bussière and Le Thi Thanh Tam, employees of the INRIA
 Foundation, provide the administrative and legal support that make our
 actions possible.
 
