@@ -10,7 +10,7 @@ Executive Committee which currently consists of
 
 <div class="my-16">
 
-  <a class="text-34" href="(https://nojb.github.io/">Nicolás Ojeda Bär</a>
+  <a class="text-34" href="https://nojb.github.io/">Nicolás Ojeda Bär</a>
     <span class="font-serif">(sponsor representative)</span> <br/>
 
   <a class="text-34" href="http://pauillac.inria.fr/~doligez/">Damien Doligez</a>
