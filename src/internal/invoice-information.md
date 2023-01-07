@@ -38,6 +38,9 @@ note that there are some private companies (for example TransferWise)
 that let you setup online accounts and provide you with such
 international-friendly account metadata, for a relatively small fee.
 
+### Tax information
+
+You should specify in the invoice how much of the price is Value Added Tax (VAT), even if it is zero.
 
 ## Other information
 
