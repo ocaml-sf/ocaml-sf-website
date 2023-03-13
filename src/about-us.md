@@ -23,11 +23,7 @@ Executive Committee which currently consists of
     <span class="font-serif">(representative of the teaching community)</span> <br/>
 
   <a class="text-34" href="http://gasche.info/">Gabriel Scherer</a>
-    <span class="font-serif">(director on sabbatical)</span> <br/>
-
-  <a class="text-34" href="https://people.rennes.inria.fr/Alan.Schmitt">Alan Schmitt</a>
-    <span class="font-serif">(interim director)</span> <br/>
-
+    <span class="font-serif">(director)</span> <br/>
 </div>
 
 We regularly discuss our actions, internally, with an Advisory Board
