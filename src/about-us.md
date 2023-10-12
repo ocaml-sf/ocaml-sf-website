@@ -40,6 +40,8 @@ actions possible.
 Michel Mauny created and launched the OCaml Software Foundation in
 2017, he served as director until December 2018.
 Yann Régis-Gianas served as teacher representative until December 2019.
+Alan Schmitt served as interim director from October 2022 until March 2023. He
+is now assistant for the foundation.
 
 The OCaml Foundation logo and website were designed by [Bettina
 Steinbrecher](https://bettystein.com).
