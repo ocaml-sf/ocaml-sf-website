@@ -14,7 +14,7 @@ for the time you have already spent on the action.
 
 ### Invoice recipient
 
-The invoices should be in PDF format, sent by email, and formally
+The invoices should be in PDF, sent by email, and formally
 addressed to the following entity:
 
 > Fondation partenariale Inria / Fondation OCaml  
