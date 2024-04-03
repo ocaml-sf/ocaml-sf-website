@@ -14,8 +14,8 @@ for the time you have already spent on the action.
 
 ### Invoice recipient
 
-The invoices should be sent by email, and formally addressed to the
-following entity:
+The invoices should be in PDF format, sent by email, and formally
+addressed to the following entity:
 
 > Fondation partenariale Inria / Fondation OCaml  
 > SIRET: 829 176 098 00012  
@@ -23,6 +23,10 @@ following entity:
 > 78153 Le Chesnay Cedex  
 > France
 
+### Invoice number
+
+The invoices should have a number different from all the ones you
+previously sent to us.
 
 ### Banking information
 
