@@ -3,7 +3,16 @@ layout: md-layout.liquid
 pageTitle: OCSF - Our Actions
 ---
 
-# Teaching actions
+# Activity Reports
+
+We regularly publish Activity Reports on the [OCaml Discourse](https://discuss.ocaml.org/).
+
+- [January 2025](https://discuss.ocaml.org/t/ocaml-software-foundation-january-2025-update/15951)
+- [January 2024](https://discuss.ocaml.org/t/ocaml-software-foundation-january-2024-update/13828)
+- [January 2023](https://discuss.ocaml.org/t/ocaml-software-foundation-january-2023-update/11217)
+- [January 2022](https://discuss.ocaml.org/t/ocaml-software-foundation-summer-2022-update/10234)
+
+# Teaching Actions
 
 The foundation has invested funding and effort (in particular through
 the work of Yann Régis-Gianas, teaching representative on the
@@ -42,7 +51,7 @@ host one locally -- which is fairly easy to do {.silent}
 </a>
 </div>
 
-## OCaml exercise corpus development
+## OCaml Exercise Corpus Development
 
 We fund teachers to contribute high-quality exercices to a common
 exercise database for the Learn-OCaml platform. In particular, we
@@ -57,14 +66,14 @@ and made available 40 exercises from the MOOC.
 </div>
 -->
 
-## Building a teacher community
+## Building a Teacher Community
 
 We are trying to build a community of OCaml teacher sharing teaching
 documents. We provided financial support for a CS-teaching
 conference at the French national level in 2018, and presented our
 teaching efforts at the OCaml Workshop on the same year.
 
-## Helping Learn-OCaml adoption in universities
+## Helping Learn-OCaml Adoption in Universities
 
 We provided some financial support for new OCaml courses in 2018, at
 the Paris-Diderot university (France) and McGill University
@@ -85,7 +94,7 @@ technical developments to the Learn-OCaml platform.
 
 </div>
 
-# General OCaml actions
+# General OCaml Actions
 
 ## Community Events
 
