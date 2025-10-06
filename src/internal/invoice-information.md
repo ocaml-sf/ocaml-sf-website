@@ -46,6 +46,8 @@ international-friendly account metadata, for a relatively small fee.
 
 You should specify in the invoice how much of the price is Value Added Tax (VAT), even if it is zero.
 
+The VIES VAT number of the INRIA Foundation (which is hosting the OCaml Software Foundation) is FR 69829176098.
+
 ## Other information
 
 ### Response/payment delay
