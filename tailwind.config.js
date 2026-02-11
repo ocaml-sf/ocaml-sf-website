@@ -19,6 +19,9 @@ module.exports = {
         platinum: {
           default: "#BFC6CE"
         },
+        gold: {
+          default: "#FFD700"
+        },
         bronze: {
           default: "#D66942"
         }
