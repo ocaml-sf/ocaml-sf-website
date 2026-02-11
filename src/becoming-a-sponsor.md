@@ -26,10 +26,10 @@ Fondation Partenariale INRIA, located in France).
 
 Sponsorship levels correspond to the following yearly donations to the foundation:
 
-- Platinum: 50K€ or more
-- Gold: 25K€ or more
-- Silver: 15K€ or more
-- Bronze: 5K€ or more
+- Platinum: 100K€ or more
+- Gold: 50K€ or more
+- Silver: 21K€ or more
+- Bronze: 7K€ or more
 
 We also have a specific sponsorship level for academic organizations
 (universities, labs, etc.), at 4K€ or more.
