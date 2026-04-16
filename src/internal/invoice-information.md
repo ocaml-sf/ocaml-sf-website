@@ -48,6 +48,11 @@ You should specify in the invoice how much of the price is Value Added Tax (VAT)
 
 The VIES VAT number of the INRIA Foundation (which is hosting the OCaml Software Foundation) is FR 69829176098.
 
+*** Company Identification Number
+
+You should specify an identification number for your company, such as
+SIRET in France or Company Number in the UK.
+
 ## Other information
 
 ### Response/payment delay
